@@ -1,0 +1,97 @@
+{
+    "instrument_data": {
+        "MicroFreak": {
+            "midi_port": 1,
+            "midi_chan": 15,
+            "multi": false,
+            "default_note": "C 3",
+            "default_patt": "P3",
+            "track_values": {
+                "slot_1": {
+                    "MIDI_CC": 2,
+                    "label": "Spice"
+                },
+                "slot_2": {
+                    "MIDI_CC": 5,
+                    "label": "Glide"
+                },
+                "slot_3": {
+                    "MIDI_CC": 9,
+                    "label": "oType"
+                },
+                "slot_4": {
+                    "MIDI_CC": 10,
+                    "label": "oWave"
+                },
+                "slot_5": {
+                    "MIDI_CC": 12,
+                    "label": "oTimbr"
+                },
+                "slot_6": {
+                    "MIDI_CC": 13,
+                    "label": "oShape"
+                },
+                "slot_7": {
+                    "MIDI_CC": 23,
+                    "label": "Cutoff"
+                },
+                "slot_8": {
+                    "MIDI_CC": 64,
+                    "label": "Reso"
+                },
+                "slot_9": {
+                    "MIDI_CC": 83,
+                    "label": "fRes"
+                },
+                "slot_10": {
+                    "MIDI_CC": 91,
+                    "label": "ArpSpF"
+                },
+                "slot_11": {
+                    "MIDI_CC": 92,
+                    "label": "ArpSS"
+                },
+                "slot_12": {
+                    "MIDI_CC": 93,
+                    "label": "~SpdFr"
+                },
+                "slot_13": {
+                    "MIDI_CC": 94,
+                    "label": "~SpdSy"
+                },
+                "slot_14": {
+                    "MIDI_CC": 102,
+                    "label": "^1Rise"
+                },
+                "slot_15": {
+                    "MIDI_CC": 103,
+                    "label": "^1Fall"
+                },
+                "slot_16": {
+                    "MIDI_CC": 28,
+                    "label": "^1Hold"
+                },
+                "slot_17": {
+                    "MIDI_CC": 24,
+                    "label": "^1Amt"
+                },
+                "slot_18": {
+                    "MIDI_CC": 105,
+                    "label": "^2Att"
+                },
+                "slot_19": {
+                    "MIDI_CC": 106,
+                    "label": "^2Dcy"
+                },
+                "slot_20": {
+                    "MIDI_CC": 29,
+                    "label": "^2Sus"
+                },
+                "slot_21": {
+                    "MIDI_CC": 26,
+                    "label": "^2fAmt"
+                }
+            }
+        }
+    }
+}

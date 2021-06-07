@@ -1,0 +1,29 @@
+MicroFreak:
+  midi_port: 1
+  midi_chan: 15
+  multi: false
+  default_note: "C 3"
+  default_patt: "P3"
+
+  track_values:
+    - ["CC", 2, "Spice"] # Spice
+    - ["CC", 5, "Glide"] # Glide
+    - ["CC", 9, "oType"] # Oscillator Type (*)
+    - ["CC", 10, "oWave"] # Oscillator Wave (*)
+    - ["CC", 12, "oTimbr"] # Oscillator Timbre (*)
+    - ["CC", 13, "oShape"] # Oscillator Shape (*)
+    - ["CC", 23, "Cutoff"] # Filter Cutoff
+    - ["CC", 64, "Reso"] # Keyboard Hold (toggle) (*)
+    - ["CC", 83, "fRes"] # Filter Resonance
+    - ["CC", 91, "ArpSpF"] # ARP/SEQ rate (free)
+    - ["CC", 92, "ArpSS"] # ARP/SEQ rate (sync)
+    - ["CC", 93, "~SpdFr"] # LFO rate (free)
+    - ["CC", 94, "~SpdSy"] # LFO rate (sync)
+    - ["CC", 102, "^1Rise"] # Cycling env rise
+    - ["CC", 103, "^1Fall"] # Cycling env fall
+    - ["CC", 28, "^1Hold"] # Cycling Env Hold (*)
+    - ["CC", 24, "^1Amt"] # Cycling Env Amount
+    - ["CC", 105, "^2Att"] # Envelope Attack
+    - ["CC", 106, "^2Dcy"] # Envelope Decay
+    - ["CC", 29, "^2Sus"] # Envelope Sustain
+    - ["CC", 26, "^2fAmt"] # Filter Amount
