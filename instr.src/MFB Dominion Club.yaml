@@ -1,0 +1,82 @@
+"Dom-Club":
+  midi_chan: 14
+  midi_port: 1
+  multi: true
+  track_values:
+    - ["CC" ,  0, "Tune"] # TUNE
+    - ["CC" ,  2, "o1MdAm"] # VCO1 MOD AMT
+    - ["CC" ,  3, "o2Det"] # VCO2 DETUNE
+    - ["CC" ,  4, "o2MdAm"] # VCO2 MOD AMT
+    - ["CC" ,  5, "odDet"] # DIGITAL DETUNE
+    - ["CC" ,  6, "odMdAm"] # DIGITAL MOD AMT
+    - ["CC" ,  8, "odWave"] # DIGITAL WAVE (*)
+    - ["CC" ,  9, "~1Spd"] # LFO1 RATE
+    - ["CC" ,  10, "~1Wave"] # LFO1 WAVE (*)
+    - ["CC" ,  11, "~1Amt"] # LFO1 AMT
+    - ["CC" ,  12, "~2Spd"] # LFO2 RATE
+    - ["CC" ,  13, "~2Wave"] # LFO2 WAVE (*)
+    - ["CC" ,  14, "~2Amt"] # LFO2 AMT
+    - ["CC" ,  15, "f1Morf"] # VCF MORPH
+    - ["CC" ,  16, "f1Cut"] # VCF CUTOFF
+    - ["CC" ,  17, "f1Res"] # VCF RESONANCE
+    - ["CC" ,  18, "f1Env"] # VCF CONTOUR
+    - ["CC" ,  19, "^1Att"] # ENV1 ATTACK
+    - ["CC" ,  20, "^1Dcy"] # ENV1 DECAY
+    - ["CC" ,  21, "^1Sus"] # ENV1 SUSTAIN
+    - ["CC" ,  22, "^1Rel"] # ENV1 RELEASE
+    - ["CC" ,  23, "^2Att"] # ENV2 ATTACK
+    - ["CC" ,  24, "^2Dcy"] # ENV2 DECAY
+    - ["CC" ,  25, "^2Sus"] # ENV2 SUSTAIN
+    - ["CC" ,  26, "^2Rel"] # ENV2 RELEASE
+    # fine resolution ommited for now
+    # - ["CC" ,  34, ""] # VCO1 MOD AMT FINE
+    # - ["CC" ,  36, ""] # VCO2 MOD AMT FINE
+    # - ["CC" ,  38, ""] # DIG. MOD AMT FINE
+    # - ["CC" ,  40, ""] # DIGITAL WAVE FINE
+    # - ["CC" ,  41, ""] # LFO1 RATE FINE
+    # - ["CC" ,  42, ""] # LFO1 WAVE FINE
+    # - ["CC" ,  44, ""] # LFO2 RATE FINE
+    # - ["CC" ,  44, ""] # LFO2 RATE FINE
+    # - ["CC" ,  45, ""] # LFO2 WAVE FINE
+    # - ["CC" ,  46, ""] # LFO2 AMT FINE
+    # - ["CC" ,  47, ""] # VCF MORPH FINE
+    # - ["CC" ,  48, ""] # VCF CUTOFF FINE
+    # - ["CC" ,  49, ""] # VCF RESO FINE
+    # - ["CC" ,  50, ""] # VCF CONTOUR FINE
+    # - ["CC" ,  51, ""] # ENV1 ATTACK FINE
+    # - ["CC" ,  52, ""] # ENV1 DEACY FINE
+    # - ["CC" ,  53, ""] # ENV1 SUSTAIN FINE
+    # - ["CC" ,  54, ""] # ENV1 RELEASE FINE
+    # - ["CC" ,  55, ""] # ENV2 ATTACK FINE
+    # - ["CC" ,  56, ""] # ENV2 DECAY FINE
+    # - ["CC" ,  57, ""] # ENV2 SUSTAIN FINE
+    # - ["CC" ,  58, ""] # ENV2 RELEASE FINE
+    - ["CC" ,  64, "Transp"] # TRANSPOSE (*)
+    - ["CC" ,  65, "Glide"] # GLIDE
+    - ["CC" ,  66, "o1Oct"] # VCO1 OCTAVE (*)
+    - ["CC" ,  67, "o1Wave"] # VCO1 WAVE (*)
+    - ["CC" ,  68, "o2MdTy"] # VCO1 MOD_SEL (*)
+    - ["CC" ,  69, "so1Noi"] # SUB1 NOISE (*)
+    - ["CC" ,  70, "o2Oct"] # VCO2 OCTAVE (*)
+    - ["CC" ,  71, "o2Int"] # VCO2 INTERVAL (*)
+    - ["CC" ,  72, "o2Wave"] # VCO2 WAVE (*)
+    - ["CC" ,  73, "o2MdTy"] # VCO2 MOD_SEL (*)
+    - ["CC" ,  74, "s2Xor"] # SUB2 XOR (*)
+    - ["CC" ,  75, "odMdTy"] # DIGITAL MOD SEL (*)
+    - ["CC" ,  76, "odAlg"] # DIGITAL ALG (*)
+    - ["CC" ,  77, "odOct"] # DIGITAL OCTAVE (*)
+    - ["CC" ,  78, "odInt"] # DIGITAL INTERVAL (*)
+    - ["CC" ,  79, "odBit-"] # DIGITAL BIT REDUCE (*)
+    - ["CC" ,  80, "mxO1"] # MIXER VCO1
+    - ["CC" ,  81, "mxO2"] # MIXER VCO2
+    - ["CC" ,  82, "mxOd"] # MIXER DIGITAL
+    - ["CC" ,  83, "mxSo1"] # MIXER SUB1
+    - ["CC" ,  84, "mxSo2"] # MIXER SUB2
+    - ["CC" ,  85, "~1Mode"] # LFO1 MODE (*)
+    - ["CC" ,  86, "~1Dest"] # * LFO1 DEST (*)
+    - ["CC" ,  87, "~2Mode"] # * LFO2 MODE (*)
+    - ["CC" ,  88, "~2Dest"] # LFO2 DEST (*)
+    - ["CC" ,  89, "fKeyFo"] # VCF KEY FOLLOW (*/)
+    - ["CC" ,  90, "^1Mode"] # ENV1 MODE (*)
+    - ["CC" ,  91, "^2Mode"] # ENV2 MODE (*)
+

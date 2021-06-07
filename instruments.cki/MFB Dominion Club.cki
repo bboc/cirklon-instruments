@@ -1,0 +1,223 @@
+{
+    "instrument_data": {
+        "Dom-Club": {
+            "midi_chan": 14,
+            "midi_port": 1,
+            "multi": true,
+            "track_values": {
+                "slot_1": {
+                    "MIDI_CC": 0,
+                    "label": "Tune"
+                },
+                "slot_2": {
+                    "MIDI_CC": 2,
+                    "label": "o1MdAm"
+                },
+                "slot_3": {
+                    "MIDI_CC": 3,
+                    "label": "o2Det"
+                },
+                "slot_4": {
+                    "MIDI_CC": 4,
+                    "label": "o2MdAm"
+                },
+                "slot_5": {
+                    "MIDI_CC": 5,
+                    "label": "odDet"
+                },
+                "slot_6": {
+                    "MIDI_CC": 6,
+                    "label": "odMdAm"
+                },
+                "slot_7": {
+                    "MIDI_CC": 8,
+                    "label": "odWave"
+                },
+                "slot_8": {
+                    "MIDI_CC": 9,
+                    "label": "~1Spd"
+                },
+                "slot_9": {
+                    "MIDI_CC": 10,
+                    "label": "~1Wave"
+                },
+                "slot_10": {
+                    "MIDI_CC": 11,
+                    "label": "~1Amt"
+                },
+                "slot_11": {
+                    "MIDI_CC": 12,
+                    "label": "~2Spd"
+                },
+                "slot_12": {
+                    "MIDI_CC": 13,
+                    "label": "~2Wave"
+                },
+                "slot_13": {
+                    "MIDI_CC": 14,
+                    "label": "~2Amt"
+                },
+                "slot_14": {
+                    "MIDI_CC": 15,
+                    "label": "f1Morf"
+                },
+                "slot_15": {
+                    "MIDI_CC": 16,
+                    "label": "f1Cut"
+                },
+                "slot_16": {
+                    "MIDI_CC": 17,
+                    "label": "f1Res"
+                },
+                "slot_17": {
+                    "MIDI_CC": 18,
+                    "label": "f1Env"
+                },
+                "slot_18": {
+                    "MIDI_CC": 19,
+                    "label": "^1Att"
+                },
+                "slot_19": {
+                    "MIDI_CC": 20,
+                    "label": "^1Dcy"
+                },
+                "slot_20": {
+                    "MIDI_CC": 21,
+                    "label": "^1Sus"
+                },
+                "slot_21": {
+                    "MIDI_CC": 22,
+                    "label": "^1Rel"
+                },
+                "slot_22": {
+                    "MIDI_CC": 23,
+                    "label": "^2Att"
+                },
+                "slot_23": {
+                    "MIDI_CC": 24,
+                    "label": "^2Dcy"
+                },
+                "slot_24": {
+                    "MIDI_CC": 25,
+                    "label": "^2Sus"
+                },
+                "slot_25": {
+                    "MIDI_CC": 26,
+                    "label": "^2Rel"
+                },
+                "slot_26": {
+                    "MIDI_CC": 64,
+                    "label": "Transp"
+                },
+                "slot_27": {
+                    "MIDI_CC": 65,
+                    "label": "Glide"
+                },
+                "slot_28": {
+                    "MIDI_CC": 66,
+                    "label": "o1Oct"
+                },
+                "slot_29": {
+                    "MIDI_CC": 67,
+                    "label": "o1Wave"
+                },
+                "slot_30": {
+                    "MIDI_CC": 68,
+                    "label": "o2MdTy"
+                },
+                "slot_31": {
+                    "MIDI_CC": 69,
+                    "label": "so1Noi"
+                },
+                "slot_32": {
+                    "MIDI_CC": 70,
+                    "label": "o2Oct"
+                },
+                "slot_33": {
+                    "MIDI_CC": 71,
+                    "label": "o2Int"
+                },
+                "slot_34": {
+                    "MIDI_CC": 72,
+                    "label": "o2Wave"
+                },
+                "slot_35": {
+                    "MIDI_CC": 73,
+                    "label": "o2MdTy"
+                },
+                "slot_36": {
+                    "MIDI_CC": 74,
+                    "label": "s2Xor"
+                },
+                "slot_37": {
+                    "MIDI_CC": 75,
+                    "label": "odMdTy"
+                },
+                "slot_38": {
+                    "MIDI_CC": 76,
+                    "label": "odAlg"
+                },
+                "slot_39": {
+                    "MIDI_CC": 77,
+                    "label": "odOct"
+                },
+                "slot_40": {
+                    "MIDI_CC": 78,
+                    "label": "odInt"
+                },
+                "slot_41": {
+                    "MIDI_CC": 79,
+                    "label": "odBit-"
+                },
+                "slot_42": {
+                    "MIDI_CC": 80,
+                    "label": "mxO1"
+                },
+                "slot_43": {
+                    "MIDI_CC": 81,
+                    "label": "mxO2"
+                },
+                "slot_44": {
+                    "MIDI_CC": 82,
+                    "label": "mxOd"
+                },
+                "slot_45": {
+                    "MIDI_CC": 83,
+                    "label": "mxSo1"
+                },
+                "slot_46": {
+                    "MIDI_CC": 84,
+                    "label": "mxSo2"
+                },
+                "slot_47": {
+                    "MIDI_CC": 85,
+                    "label": "~1Mode"
+                },
+                "slot_48": {
+                    "MIDI_CC": 86,
+                    "label": "~1Dest"
+                },
+                "slot_49": {
+                    "MIDI_CC": 87,
+                    "label": "~2Mode"
+                },
+                "slot_50": {
+                    "MIDI_CC": 88,
+                    "label": "~2Dest"
+                },
+                "slot_51": {
+                    "MIDI_CC": 89,
+                    "label": "fKeyFo"
+                },
+                "slot_52": {
+                    "MIDI_CC": 90,
+                    "label": "^1Mode"
+                },
+                "slot_53": {
+                    "MIDI_CC": 91,
+                    "label": "^2Mode"
+                }
+            }
+        }
+    }
+}
