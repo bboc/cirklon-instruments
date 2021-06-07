@@ -93,14 +93,14 @@ class CirklonInstrument(object):
                 item = item[1:]
             if len(item) > 3:
                 cc_defs_required = True
-            if item[0] == MIDI_CC:
+            if item[0] == 'CC':
                 slot_data = {
                     "MIDI_CC": item[1],
                     "label": item[2],
                 }
                 # store for later
                 midi_cc_data.append(item[1])
-            elif item[0] == TRACK_CONTROL:
+            elif item[0] == 'track':
                 slot_data = {
                     TRACK_CONTROL: item[1]
                 }
