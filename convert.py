@@ -60,9 +60,7 @@ class CirklonInstrument(object):
         for instrument in self.raw_data:
             self.cki_data[INSTRUMENT_DATA][instrument] = self.process_instrument(self.raw_data[instrument])
 
-        target = CKI_FILENAME_TEMPLATE % self.name
-        with open(os.path.join(os.path.join(CKI_DIR, target)), 'w') as outfile:
-            json.dump(self.cki_data, outfile, indent=4)
+        write_json(CKI_FILENAME_TEMPLATE % self.name, self.cki_data)
 
     def process_instrument(self, raw_instrument):
         """
@@ -97,7 +95,7 @@ class CirklonInstrument(object):
                     "label": item[2],
                 }
                 # store for later
-                midi_cc_data.append(item[1])
+                midi_cc_data.append(item[1:])
             elif item[0] == 'track':
                 slot_data = {
                     TRACK_CONTROL: item[1]
