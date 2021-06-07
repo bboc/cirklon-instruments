@@ -24,7 +24,6 @@ TRACK_CONTROL = 'track_control'
 def json2yaml(source, target):
     with open(os.path.join(os.path.join(CKI_DIR, source)), 'r') as infile:
         data = json.load(infile)
-        return
     with open(os.path.join(os.path.join(YAML_DIR, target)), 'w') as outfile:
         yaml.dump(data, outfile, allow_unicode=True)
 
@@ -33,14 +32,17 @@ def yaml2json(source, target):
     "Simply convert YAML to JSON file, no processing"
     with open(os.path.join(os.path.join(YAML_DIR, source)), 'r') as infile:
         data = yaml.load(infile, Loader=yaml.FullLoader)
-
-    with open(os.path.join(os.path.join(CKI_DIR, target)), 'w') as outfile:
-        json.dump(data, outfile, indent=4)
+    write_json(target, data)
 
 
 def load_yaml(source):
     with open(os.path.join(os.path.join(YAML_DIR, source)), 'r') as infile:
         return yaml.load(infile, Loader=yaml.FullLoader)
+
+
+def write_json(target, data):
+    with open(os.path.join(os.path.join(CKI_DIR, target)), 'w') as outfile:
+        json.dump(data, outfile, indent=4)
 
 
 def yaml2cki(name):
@@ -138,8 +140,9 @@ class CirklonInstrument(object):
 
 
 if __name__ == "__main__":
-    # json2yaml("Ju06.cki", 'Ju06.yaml')
-    # json2yaml("Waldorf Q.cki", 'Waldorf Q.yaml')
-    # yaml2json("Ju06.yaml", 'Ju06-2.cki')
+    #json2yaml("foo.cki", 'foo.yaml')
+    # yaml2json("foo.yaml", 'bar.cki')
 
-    yaml2cki('Roland Sh-01a')
+    #yaml2cki('Roland Sh-01a')
+    #yaml2cki('Waldorf Q')
+    yaml2cki('Waldorf Streichfett')
