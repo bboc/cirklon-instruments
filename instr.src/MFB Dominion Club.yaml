@@ -1,7 +1,10 @@
 "Dom-Club":
-  midi_chan: 14
   midi_port: 1
-  multi: true
+  midi_chan: 14
+  multi: false
+  default_note: "C 3"
+  default_patt: "P3"
+
   track_values:
     - ["CC" ,  0, "Tune"] # TUNE
     - ["CC" ,  2, "o1MdAm"] # VCO1 MOD AMT
