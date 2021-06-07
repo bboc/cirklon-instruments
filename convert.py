@@ -1,6 +1,7 @@
-import yaml
+import argparse
 import json
 import os
+import yaml
 
 CKI_DIR = "instruments.cki"
 YAML_DIR = "instr.src"
@@ -29,11 +30,6 @@ def load_yaml(source):
 def write_json(target, data):
     with open(os.path.join(os.path.join(CKI_DIR, target)), 'w') as outfile:
         json.dump(data, outfile, indent=4)
-
-
-def yaml2cki(name):
-    ci = CirklonInstrument(name)
-    ci.make()
 
 
 class CirklonInstrument(object):
@@ -126,10 +122,11 @@ class CirklonInstrument(object):
 
 
 if __name__ == "__main__":
-    # json2yaml("foo.cki", 'foo.yaml')
-    # yaml2json("foo.yaml", 'bar.cki')
 
-    yaml2cki('Dreadbox Typhon')
-    yaml2cki('Roland Sh-01a')
-    yaml2cki('Waldorf Micro Q')
-    yaml2cki('Waldorf Streichfett')
+    parser = argparse.ArgumentParser(description='Create a Cirklon instrument definition file from a YAML file.')
+    parser.add_argument('name', type=str,
+                        help="Name of YAML file in instr.src (without extension")
+
+    args = parser.parse_args()
+    ci = CirklonInstrument(args.name)
+    ci.make()
