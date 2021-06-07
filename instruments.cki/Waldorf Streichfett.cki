@@ -8,75 +8,75 @@
             "default_patt": "P3",
             "track_values": {
                 "slot_1": {
-                    "MIDI_CC": "70",
+                    "MIDI_CC": 70,
                     "label": "StrReg"
                 },
                 "slot_2": {
-                    "MIDI_CC": "71",
+                    "MIDI_CC": 71,
                     "label": "StrOct"
                 },
                 "slot_3": {
-                    "MIDI_CC": "72",
+                    "MIDI_CC": 72,
                     "label": "StrRel"
                 },
                 "slot_4": {
-                    "MIDI_CC": "73",
+                    "MIDI_CC": 73,
                     "label": "StrCre"
                 },
                 "slot_5": {
-                    "MIDI_CC": "74",
+                    "MIDI_CC": 74,
                     "label": "EnsTy"
                 },
                 "slot_6": {
-                    "MIDI_CC": "75",
+                    "MIDI_CC": 75,
                     "label": "EnsOn"
                 },
                 "slot_7": {
-                    "MIDI_CC": "76",
+                    "MIDI_CC": 76,
                     "label": "SolTon"
                 },
                 "slot_8": {
-                    "MIDI_CC": "77",
+                    "MIDI_CC": 77,
                     "label": "SolTre"
                 },
                 "slot_9": {
-                    "MIDI_CC": "78",
+                    "MIDI_CC": 78,
                     "label": "SolSpl"
                 },
                 "slot_10": {
-                    "MIDI_CC": "80",
+                    "MIDI_CC": 80,
                     "label": "SolAtt"
                 },
                 "slot_11": {
-                    "MIDI_CC": "81",
+                    "MIDI_CC": 81,
                     "label": "SolDec"
                 },
                 "slot_12": {
-                    "MIDI_CC": "79",
+                    "MIDI_CC": 79,
                     "label": "EnvTyp"
                 },
                 "slot_13": {
-                    "MIDI_CC": "82",
+                    "MIDI_CC": 82,
                     "label": "Balanc"
                 },
                 "slot_14": {
-                    "MIDI_CC": "91",
+                    "MIDI_CC": 91,
                     "label": "FxType"
                 },
                 "slot_15": {
-                    "MIDI_CC": "92",
+                    "MIDI_CC": 92,
                     "label": "FxAnim"
                 },
                 "slot_16": {
-                    "MIDI_CC": "93",
+                    "MIDI_CC": 93,
                     "label": "FxPhas"
                 },
                 "slot_17": {
-                    "MIDI_CC": "94",
+                    "MIDI_CC": 94,
                     "label": "FxRev"
                 },
                 "slot_18": {
-                    "MIDI_CC": "0",
+                    "MIDI_CC": 0,
                     "label": "BANK"
                 },
                 "slot_19": {
