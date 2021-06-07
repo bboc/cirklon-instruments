@@ -24,7 +24,6 @@ TRACK_CONTROL = 'track_control'
 def json2yaml(source, target):
     with open(os.path.join(os.path.join(CKI_DIR, source)), 'r') as infile:
         data = json.load(infile)
-        print(data)
         return
     with open(os.path.join(os.path.join(YAML_DIR, target)), 'w') as outfile:
         yaml.dump(data, outfile, allow_unicode=True)
@@ -58,7 +57,6 @@ class CirklonInstrument(object):
 
     def make(self):
         self.raw_data = load_yaml(YAML_FILENAME_TEMPLATE % self.name)
-        print(self.raw_data)
         for instrument in self.raw_data:
             self.cki_data[INSTRUMENT_DATA][instrument] = self.process_instrument(self.raw_data[instrument])
 
