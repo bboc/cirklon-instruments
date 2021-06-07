@@ -21,20 +21,6 @@ MIDI_CC = 'MIDI_CC'
 TRACK_CONTROL = 'track_control'
 
 
-def json2yaml(source, target):
-    with open(os.path.join(os.path.join(CKI_DIR, source)), 'r') as infile:
-        data = json.load(infile)
-    with open(os.path.join(os.path.join(YAML_DIR, target)), 'w') as outfile:
-        yaml.dump(data, outfile, allow_unicode=True)
-
-
-def yaml2json(source, target):
-    "Simply convert YAML to JSON file, no processing"
-    with open(os.path.join(os.path.join(YAML_DIR, source)), 'r') as infile:
-        data = yaml.load(infile, Loader=yaml.FullLoader)
-    write_json(target, data)
-
-
 def load_yaml(source):
     with open(os.path.join(os.path.join(YAML_DIR, source)), 'r') as infile:
         return yaml.load(infile, Loader=yaml.FullLoader)
