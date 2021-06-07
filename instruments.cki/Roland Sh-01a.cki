@@ -3,10 +3,9 @@
         "Sh-01a": {
             "midi_port": 1,
             "midi_chan": 12,
+            "multi": false,
             "default_note": "C 3",
             "default_patt": "P3",
-            "poly_spread": "off",
-            "multi": true,
             "track_values": {
                 "slot_1": {
                     "MIDI_CC": 1,

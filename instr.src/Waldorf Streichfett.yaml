@@ -1,9 +1,10 @@
 StreichFt:
-  midi_chan: 1
-  midi_port: 2
+  midi_port: 1
+  midi_chan: 16
+  multi: false
   default_note: "C 3"
-  default_patt: "CK"
-  multi: true
+  default_patt: "P3"
+
   track_values:
     - ["CC", "70", "StrReg"]
     - ["CC", "71", "StrOct", 0, 2, 1]

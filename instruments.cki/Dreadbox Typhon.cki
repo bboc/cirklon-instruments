@@ -1,9 +1,11 @@
 {
     "instrument_data": {
         "Typhon": {
-            "midi_chan": 1,
-            "midi_port": 11,
-            "multi": true,
+            "midi_port": 1,
+            "midi_chan": 11,
+            "multi": false,
+            "default_note": "C 3",
+            "default_patt": "P3",
             "track_values": {
                 "slot_1": {
                     "MIDI_CC": 1,

@@ -1,7 +1,10 @@
 Typhon:
-  midi_chan: 1
-  midi_port: 11
-  multi: true
+  midi_port: 1
+  midi_chan: 11
+  multi: false
+  default_note: "C 3"
+  default_patt: "P3" # or CK 
+ 
   track_values:
     - ["CC", 1, "ModWhl"] # MOD WHEEL
     - ["CC", 2, "CC2"] # CC2

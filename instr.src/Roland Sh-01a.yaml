@@ -1,10 +1,10 @@
-Sh-01a: # max 9 chars!!
+Sh-01a:
   midi_port: 1
   midi_chan: 12
+  multi: false
   default_note: "C 3"
-  default_patt: "P3" # or CK
-  poly_spread: 'off'
-  multi: true
+  default_patt: "P3"
+
   track_values:
     - ["CC", 1, "Mod"] # MODULATION
     - ["CC", 3, "~Rate"] #  LFO RATE 

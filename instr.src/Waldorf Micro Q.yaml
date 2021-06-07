@@ -1,7 +1,10 @@
 Micro Q:
-  midi_chan: 1
   midi_port: 1
+  midi_chan: 1
   multi: true
+  default_note: "C 3"
+  default_patt: "P3"
+
   track_values:
     - ["CC", "7", "Vol"]
     - ["track", "octave"]
