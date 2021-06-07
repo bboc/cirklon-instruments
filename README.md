@@ -6,12 +6,14 @@ Since the CKI files are JSON and contain a large amount of formatting and duplic
 
 To facilitate transformation of existing scripts, a converter from JSON to YAML is included in the script.
 
+
 ## CKI Format
 
-(see dummy.yaml for more documentation)
+(see file-format.yaml, a documented example of the file format)
 
-- NRPN is not possible
-- Intrument Names are 9 characters max.
+- NRPN is not possible (yet)
+- Intrument names are 9 characters max.
+- Parameter names are 6 characters max.
 
 
 ## Pararameter Naming Conventions
@@ -34,7 +36,6 @@ All parameter names will be in [Camel case](https://en.wikipedia.org/wiki/Camel_
 - Depth (=Intensity): 'Dp'
 - Mode 'Md'
 - Type: 'Ty'
-
 
 
 ## Interesting Links
