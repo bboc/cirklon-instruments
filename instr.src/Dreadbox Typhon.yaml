@@ -1,0 +1,99 @@
+Typhon:
+  midi_chan: 1
+  midi_port: 11
+  multi: true
+  track_values:
+    - ["CC", 1, "ModWhl"] # MOD WHEEL
+    - ["CC", 2, "CC2"] # CC2
+    - ["CC", 4, "fCut"] # CUTOFF
+    - ["CC", 3, "fRes"] # RESONANCE
+    - ["CC", 5, "oWave"] # WAVE
+    - ["CC", 6, "o2Tune"] # OSC 2 TUNE
+    - ["CC", 7, "GldAmt"] # GLIDE AMOUNT
+    - ["CC", 8, "oLevel"] # VCO’S LEVEL
+    - ["CC", 9, "fTrack"] # FILTER TRACKING
+    - ["CC", 11, "fFmAmt"] # FILTER FM AMOUNT
+
+    - ["CC", 12, "hpCut"] # HP CUT OFF
+    - ["CC", 13, "hpRes"] # HP RESONANCE
+    - ["CC", 14, "fx1P1"] # FX1 PARAMETER 1
+    - ["CC", 15, "fx1P2"] # FX1 PARAMETER 2
+    - ["CC", 16, "fx1Mix"] # FX1 MIX
+    - ["CC", 17, "fx2P1"] # FX2 PARAMETER 1
+    - ["CC", 18, "fx2P2"] # FX2 PARAMETER 2
+    - ["CC", 19, "fx2P3"] # FX2 PARAMETER 3
+    - ["CC", 20, "fx2P4"] # FX2 PARAMETER 4
+    - ["CC", 21, "fx2Mix"] # FX2 MIX
+    - ["CC", 22, "fx3P1"] # FX3 PARAMETER 1
+    - ["CC", 23, "fx3P2"] # FX3 PARAMETER 2
+    - ["CC", 24, "fx3P3"] # FX3 PARAMETER 3
+    - ["CC", 25, "fx3P4"] # FX3 PARAMETER 4
+    - ["CC", 26, "fx3Mix"] # FX3 MIX
+
+    - ["CC", 27, "f^Att"] # VCF EG ATTACK
+    - ["CC", 28, "f^Dcy"] # VCF EG DECAY
+    - ["CC", 29, "f^Sus"] # VCF EG SUSTAIN
+    - ["CC", 30, "f^Rel"] # VCF EG RELEASE
+    - ["CC", 31, "f^Time"] # VCF EG TIME
+    - ["CC", 33, "f^Lvl"] # VCF EG LEVEL
+    - ["CC", 34, "^Att"] # VCA EG ATTACK
+    - ["CC", 35, "^Dcy"] # VCA EG DECAY
+    - ["CC", 36, "^Sus"] # VCA EG SUSTAIN
+    - ["CC", 37, "^Rel"] # VCA EG RELEASE
+    - ["CC", 38, "^Time"] # VCA EG TIME
+
+    - ["CC", 40, "~1P1"] # M1 PARAMETER 1
+    - ["CC", 41, "~1P2"] # M1 PARAMETER 2
+    - ["CC", 42, "~1P3"] # M1 PARAMETER 3
+    - ["CC", 43, "~1CvLv"] # M1 CV LEVEL
+    - ["CC", 44, "~1Cv1L"] # M1 CV1 LEVEL
+    - ["CC", 45, "~1Cv2L"] # M1 CV2 LEVEL
+    - ["CC", 46, "~1WvL"] # M1 WAVE LEVEL
+    - ["CC", 47, "~1CtL"] # M1 CUT LEVEL
+    - ["CC", 48, "~1VcaL"] # M1 VCA LEVEL
+    - ["CC", 49, "~1Fx1L"] # M1 FX1 LEVEL
+    - ["CC", 50, "~1FfmL"] # M1 FFM LEVEL
+    - ["CC", 51, "~1Fx2L"] # M1 FX2 LEVEL
+    - ["CC", 52, "~1Fx3L"] # M1 FX3 LEVEL
+    - ["CC", 53, "~1Cust1"] # M1 CUSTOM 1 LEVEL
+    - ["CC", 54, "~1Cust2"] # M1 CUSTOM 2 LEVEL
+    - ["CC", 55, "~1Cust3"] # M1 CUSTOM 3 LEVEL
+
+    - ["CC", 56, "~2P1"] # M2 PARAMETER 1
+    - ["CC", 57, "~2P2"] # M2 PARAMETER 2
+    - ["CC", 58, "~2P3"] # M2 PARAMETER 3
+    - ["CC", 59, "~2CvLv"] # M2 CV LEVEL
+    - ["CC", 60, "~2Cv1L"] # M2 CV1 LEVEL
+    - ["CC", 61, "~2Cv2L"] # M2 CV2 LEVEL
+    - ["CC", 62, "~2WvL"] # M2 WAVE LEVEL
+    - ["CC", 63, "~2CtL"] # M2 CUT LEVEL
+    - ["CC", 65, "~2VcaL"] # M2 VCA LEVEL
+    - ["CC", 66, "~2Fx1L"] # M2 FX1 LEVEL
+    - ["CC", 67, "~2FfmL"] # M2 FFM LEVEL
+    - ["CC", 68, "~2Fx2L"] # M2 FX2 LEVEL
+    - ["CC", 69, "~2Fx3L"] # M2 FX3 LEVEL
+    - ["CC", 70, "~2Cust1"] # M2 CUSTOM 1 LEVEL
+    - ["CC", 71, "~2Cust2"] # M2 CUSTOM 2 LEVEL
+    - ["CC", 72, "~2Cust3"] # M2 CUSTOM 3 LEVEL
+
+    - ["CC", 73, "~3P1"] # M3 PARAMETER 1
+    - ["CC", 74, "~3P2"] # M3 PARAMETER 2
+    - ["CC", 75, "~3P3"] # M3 PARAMETER 3
+    - ["CC", 76, "~3CvLv"] # M3 CV LEVEL
+    - ["CC", 77, "~3Cv1L"] # M3 CV1 LEVEL
+    - ["CC", 78, "~3Cv2L"] # M3 CV2 LEVEL
+    - ["CC", 79, "~3WvL"] # M3 WAVE LEVEL
+    - ["CC", 80, "~3CtL"] # M3 CUT LEVEL
+    - ["CC", 81, "~3VcaL"] # M3 VCA LEVEL
+    - ["CC", 82, "~3Fx1L"] # M3 FX1 LEVEL
+    - ["CC", 83, "~3FfmL"] # M3 FFM LEVEL
+    - ["CC", 84, "~3Fx2L"] # M3 FX2 LEVEL
+    - ["CC", 85, "~3Fx3L"] # M3 FX3 LEVEL
+    - ["CC", 86, "~3Cust1"] # M3 CUSTOM 1 LEVEL
+    - ["CC", 87, "~3Cust2"] # M3 CUSTOM 2 LEVEL
+    - ["CC", 88, "~3Cust3"] # M3 CUSTOM 3 LEVEL
+
+    - ["CC", 89, "SqLen"] # SEQ LENGTH
+    - ["CC", 90, "SqDiv"] # SEQ DIVISION
+    - ["CC", 91, "SqProp"] # SEQ PROBABILITY
+    - ["CC", 92, "SqSwng"] # SEQ SWING

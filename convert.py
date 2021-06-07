@@ -140,9 +140,10 @@ class CirklonInstrument(object):
 
 
 if __name__ == "__main__":
-    #json2yaml("foo.cki", 'foo.yaml')
+    # json2yaml("foo.cki", 'foo.yaml')
     # yaml2json("foo.yaml", 'bar.cki')
 
+    yaml2cki('Dreadbox Typhon')
     yaml2cki('Roland Sh-01a')
     yaml2cki('Waldorf Micro Q')
     yaml2cki('Waldorf Streichfett')
