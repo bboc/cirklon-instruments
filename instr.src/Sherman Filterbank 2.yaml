@@ -1,0 +1,44 @@
+Filterbk2:
+  # Standard midi channel on power on is always #16 
+  # switch channel: send any program change on ch16, 
+  # channel of next midi message received will be the new channel
+  # so don't bother if you only own one Filterbank: the channel is 16
+  midi_port: 1
+  midi_chan: 16
+  multi: false
+  default_note: "G#4"
+  default_patt: "P3"
+  no_xpose: true
+  no_fts: true
+
+  track_values:
+    # Pitch wheel: Cutoff filter 1 (fig.25) default: 4096 (=zero)
+    # Channel pressure: Resonance filter 1 0 C
+
+    - ["CC", 1, "f2Cut"] # Cutoff freq filter 2
+    - ["CC", 2, "f2Res"] # Resonance filter 2
+    - ["CC", 4, "FmDpth"] # FM depth
+    - ["CC", 7, "VcaBia", 0, 127, 127] # VCA bias 
+    - ["CC", 11, "AM/Rng"] # AM/ring depth
+
+    - ["CC", 5, "^1Att", 0, 127, 63] # Attack time ADSR
+    - ["CC", 16, "^1Dcy", 0, 127, 63] # Decay time ADSR
+    - ["CC", 17, "^1Rel", 0, 127, 63] # Release time ADSR
+
+    - ["CC", 18, "^2Att", 0, 127, 63] # Attack time AR
+    - ["CC", 19, "^2Rel", 0, 127, 63] # Release time AR 
+
+
+    # Trigger Setup
+    # C4 : unblock audio trigger ADSR 
+    # C#4 : block audio trigger ADSR 
+    # D4 : unblock audio trigger AR 
+    # D#4: block audio trigger AR
+
+    # Triggering 
+    # F#4: normal trigger ADSR
+    # A#4: normal trigger AR
+    # G#4: normal trigger both
+    # F4: trigger ADSR with speeded-up (*) attack
+    # G4: forced gate-off ADSR with speeded-up (*) release A4: trigger AR with speeded-up (*) attack
+    # B4: forced gate-off AR with speeded-up (*) release

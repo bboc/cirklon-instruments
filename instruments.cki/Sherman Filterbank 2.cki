@@ -1,0 +1,105 @@
+{
+    "instrument_data": {
+        "Filterbk2": {
+            "midi_port": 1,
+            "midi_chan": 16,
+            "multi": false,
+            "default_note": "G#4",
+            "default_patt": "P3",
+            "no_xpose": true,
+            "no_fts": true,
+            "track_values": {
+                "slot_1": {
+                    "MIDI_CC": 1,
+                    "label": "f2Cut"
+                },
+                "slot_2": {
+                    "MIDI_CC": 2,
+                    "label": "f2Res"
+                },
+                "slot_3": {
+                    "MIDI_CC": 4,
+                    "label": "FmDpth"
+                },
+                "slot_4": {
+                    "MIDI_CC": 7,
+                    "label": "VcaBia"
+                },
+                "slot_5": {
+                    "MIDI_CC": 11,
+                    "label": "AM/Rng"
+                },
+                "slot_6": {
+                    "MIDI_CC": 5,
+                    "label": "^1Att"
+                },
+                "slot_7": {
+                    "MIDI_CC": 16,
+                    "label": "^1Dcy"
+                },
+                "slot_8": {
+                    "MIDI_CC": 17,
+                    "label": "^1Rel"
+                },
+                "slot_9": {
+                    "MIDI_CC": 18,
+                    "label": "^2Att"
+                },
+                "slot_10": {
+                    "MIDI_CC": 19,
+                    "label": "^2Rel"
+                }
+            },
+            "CC_defs": {
+                "CC_1": {
+                    "label": "f2Cut"
+                },
+                "CC_2": {
+                    "label": "f2Res"
+                },
+                "CC_4": {
+                    "label": "FmDpth"
+                },
+                "CC_7": {
+                    "label": "VcaBia",
+                    "min_val": 0,
+                    "max_val": 127,
+                    "start_val": 127
+                },
+                "CC_11": {
+                    "label": "AM/Rng"
+                },
+                "CC_5": {
+                    "label": "^1Att",
+                    "min_val": 0,
+                    "max_val": 127,
+                    "start_val": 63
+                },
+                "CC_16": {
+                    "label": "^1Dcy",
+                    "min_val": 0,
+                    "max_val": 127,
+                    "start_val": 63
+                },
+                "CC_17": {
+                    "label": "^1Rel",
+                    "min_val": 0,
+                    "max_val": 127,
+                    "start_val": 63
+                },
+                "CC_18": {
+                    "label": "^2Att",
+                    "min_val": 0,
+                    "max_val": 127,
+                    "start_val": 63
+                },
+                "CC_19": {
+                    "label": "^2Rel",
+                    "min_val": 0,
+                    "max_val": 127,
+                    "start_val": 63
+                }
+            }
+        }
+    }
+}
