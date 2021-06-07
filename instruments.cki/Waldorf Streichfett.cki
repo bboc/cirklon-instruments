@@ -1,0 +1,157 @@
+{
+    "instrument_data": {
+        "StreichFt": {
+            "midi_chan": 1,
+            "midi_port": 2,
+            "default_note": "C 3",
+            "default_patt": "CK",
+            "multi": true,
+            "track_values": {
+                "slot_1": {
+                    "MIDI_CC": "70",
+                    "label": "StrReg"
+                },
+                "slot_2": {
+                    "MIDI_CC": "71",
+                    "label": "StrOct"
+                },
+                "slot_3": {
+                    "MIDI_CC": "72",
+                    "label": "StrRel"
+                },
+                "slot_4": {
+                    "MIDI_CC": "73",
+                    "label": "StrCre"
+                },
+                "slot_5": {
+                    "MIDI_CC": "74",
+                    "label": "EnsTy"
+                },
+                "slot_6": {
+                    "MIDI_CC": "75",
+                    "label": "EnsOn"
+                },
+                "slot_7": {
+                    "MIDI_CC": "76",
+                    "label": "SolTon"
+                },
+                "slot_8": {
+                    "MIDI_CC": "77",
+                    "label": "SolTre"
+                },
+                "slot_9": {
+                    "MIDI_CC": "78",
+                    "label": "SolSpl"
+                },
+                "slot_10": {
+                    "MIDI_CC": "80",
+                    "label": "SolAtt"
+                },
+                "slot_11": {
+                    "MIDI_CC": "81",
+                    "label": "SolDec"
+                },
+                "slot_12": {
+                    "MIDI_CC": "79",
+                    "label": "EnvTyp"
+                },
+                "slot_13": {
+                    "MIDI_CC": "82",
+                    "label": "Balanc"
+                },
+                "slot_14": {
+                    "MIDI_CC": "91",
+                    "label": "FxType"
+                },
+                "slot_15": {
+                    "MIDI_CC": "92",
+                    "label": "FxAnim"
+                },
+                "slot_16": {
+                    "MIDI_CC": "93",
+                    "label": "FxPhas"
+                },
+                "slot_17": {
+                    "MIDI_CC": "94",
+                    "label": "FxRev"
+                },
+                "slot_18": {
+                    "MIDI_CC": "0",
+                    "label": "BANK"
+                },
+                "slot_19": {
+                    "track_control": "PGM"
+                }
+            },
+            "CC_defs": {
+                "CC_70": {
+                    "label": "StrReg"
+                },
+                "CC_71": {
+                    "label": "StrOct",
+                    "min_val": 0,
+                    "max_val": 2,
+                    "start_val": 1
+                },
+                "CC_72": {
+                    "label": "StrRel"
+                },
+                "CC_73": {
+                    "label": "StrCre"
+                },
+                "CC_74": {
+                    "label": "EnsTy",
+                    "min_val": 0,
+                    "max_val": 2,
+                    "start_val": 1
+                },
+                "CC_75": {
+                    "label": "EnsOn",
+                    "min_val": 0,
+                    "max_val": 1
+                },
+                "CC_76": {
+                    "label": "SolTon"
+                },
+                "CC_77": {
+                    "label": "SolTre"
+                },
+                "CC_78": {
+                    "label": "SolSpl",
+                    "min_val": 0,
+                    "max_val": 2,
+                    "start_val": 1
+                },
+                "CC_80": {
+                    "label": "SolAtt"
+                },
+                "CC_81": {
+                    "label": "SolDec"
+                },
+                "CC_79": {
+                    "label": "EnvTyp",
+                    "min_val": 0,
+                    "max_val": 1
+                },
+                "CC_82": {
+                    "label": "Balanc"
+                },
+                "CC_91": {
+                    "label": "FxType"
+                },
+                "CC_92": {
+                    "label": "FxAnim"
+                },
+                "CC_93": {
+                    "label": "FxPhas"
+                },
+                "CC_94": {
+                    "label": "FxRev"
+                },
+                "CC_0": {
+                    "label": "BANK"
+                }
+            }
+        }
+    }
+}
