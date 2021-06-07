@@ -1,0 +1,50 @@
+Sh-01a: # max 9 chars!!
+  midi_port: 1
+  midi_chan: 12
+  default_note: "C 3"
+  default_patt: "P3" # or CK
+  poly_spread: 'off'
+  multi: true
+  track_values:
+    - ["MIDI_CC", 1, "Mod"] # MODULATION
+    - ["MIDI_CC", 3, "~Rate"] #  LFO RATE 
+    - ["MIDI_CC", 11, "EXP"] #  EXPRESSION PEDAL 
+    - ["MIDI_CC", 12, "~Wave"] # LFO WAVE FORM
+    - ["MIDI_CC", 13, "~Depth"] # VCO MOD DEPTH 
+    - ["MIDI_CC", 14, "oRange"] # VCO RANGE
+    - ["MIDI_CC", 15, "oPw"] # VCO PULSE WIDTH
+    - ["MIDI_CC", 16, "PwmSrc"] # VCO PWM SOURCE
+    - ["MIDI_CC", 17, "oModIn"] # VCO MOD SENS
+    - ["MIDI_CC", 18, "oBendDp"] # VCO BEND DEPTH 
+    - ["MIDI_CC", 19, "oPulLV"] # VCO PWM LEVEL
+    - ["MIDI_CC", 20, "oSawLV"] # VCO SAW LEVEL
+    - ["MIDI_CC", 21, "oSubLv"] # VCO SUB LEVEL
+    - ["MIDI_CC", 22, "oSubTy"] # VCO SUB TYPE
+    - ["MIDI_CC", 23, "oNoiLv"] # VCO NOISE LEVEL 
+    - ["MIDI_CC", 74, "fCut"] # VCF CUTOFF
+    - ["MIDI_CC", 71, "fRes"] # VCF RESONANCE
+    - ["MIDI_CC", 24, "f^Dp"] # VCF ENV DEPTH
+    - ["MIDI_CC", 25, "fModDp"] # VCF MOD DEPTH
+    - ["MIDI_CC", 26, "fKeyF"] # VCF KEY FOLLOW
+    - ["MIDI_CC", 27, "fBndDp"] # VCF BEND DEPTH
+    - ["MIDI_CC", 28, "a^Sw"] #  VCA ENV SW
+    - ["MIDI_CC", 29, "a^Mode"] # VCA ENV MODE
+    - ["MIDI_CC", 73, "^Atk"] # ENV ATTACK
+    - ["MIDI_CC", 75, "^Dcy"] # ENV DECAY
+    - ["MIDI_CC", 30, "^Sus"] # ENV SUSTAIN 
+    - ["MIDI_CC", 72, "^Rel"] # ENV RELEASE
+    - ["MIDI_CC", 5, "PortTM"] #  PORTAMENTO TIME 
+    - ["MIDI_CC", 31, "PortMd"] # PORTAMENT MODE 
+    - ["MIDI_CC", 65, "Porta"] # PORTAMENTO
+    - ["MIDI_CC", 64, "Hold"] # HOLD 
+    - ["MIDI_CC", 76, "Tune"] # TUNE
+    - ["MIDI_CC", 77, "TansSw"] # TRANSPOSE SW
+    - ["MIDI_CC", 78, "NoizMd"] # NOISE MODE
+    - ["MIDI_CC", 79, "~Md"] # LFO MODE
+    - ["MIDI_CC", 80, "AssMd"] # ASSIGN MODE
+    - ["MIDI_CC", 81, "CrV2Sw"] # CHORD VOICE 2 SW 
+    - ["MIDI_CC", 82, "CrV3Sw"] # CHORD VOICE 3 SW 
+    - ["MIDI_CC", 83, "CrV4Sw"] # CHORD VOICE 4 SW 
+    - ["MIDI_CC", 85, "CrV2Ks"] # CHORD VOICE 2 KEY SHIFT 
+    - ["MIDI_CC", 86, "CrV3Ks"] # CHORD VOICE 3 KEY SHIFT 
+    - ["MIDI_CC", 87, "CrV4Ks"] # CHORD VOICE 4 KEY SHIFT
