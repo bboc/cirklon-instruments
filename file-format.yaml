@@ -6,6 +6,9 @@ InstrName: # max 9 characters
   # Midi Channel for instrument:
   midi_chan: 1
 
+  # Multitimbral instrument (responds to multiple channels)
+  multi: true
+
   # Default note for pattern
   default_note: "C 3"
 
@@ -15,10 +18,8 @@ InstrName: # max 9 characters
   # Disable pattern transposition:
   no_xpose: false
 
-  # Multitimbral instrument (responds to multiple channels)
-  multi: true
   # Disable force-to-scale:
-  no_fts: true, 
+  no_fts: true
 
   # (yet) unknown arguments
   poly_spread: "off"
