@@ -1,37 +1,47 @@
-InstrName: # max 9 chars!!
+InstrName: # max 9 characters
+  
+  # Midi Port for instrument:
   midi_port: 5
+
+  # Midi Channel for instrument:
   midi_chan: 1
+
+  # Default note for pattern
   default_note: "C 3"
-  default_patt: "P3" # or CK
-  poly_spread:: "off"
+
+  # Default pattern type ("P3" or "CK")
+  default_patt: "P3"
+    
+  # Disable pattern transposition:
+  no_xpose: false
+
+  # Multitimbral instrument (responds to multiple channels)
   multi: true
+  # Disable force-to-scale:
+  no_fts: true, 
+
+  # (yet) unknown arguments
+  poly_spread: "off"
+  no_thru: true
+  no_bankM: true
+  no_bankL: true
+
+  # definitions for MIDI CCs or track control
   track_values:
-      - [1, "track_control", "pgm"]
-        # slot number is optinal, if not present, it's counted up from 1
-      - ["MIDI_CC", 1, "ModWhl"] # label is max 6 chars
-      - [3, "MIDI_CC", 2, "SomeCt", 0, 127]
-        # generates in CC_defs: "CC_2" : { "label" : "SomeCt", "min_val" : 0, "max_val" : 127 },      
-      - [4, "MIDI_CC", 3, "Switch1", 0, 4, 2]
-        # generates "CC_3" : { "label" : "Switch1", "min_val" : 0, "max_val" : 4, "start_val" : 2 },
+      # slot number is optional, if not present, it is counted up from 1
+      # (useful if you want to skip some slots for some reason)
+      - [2, "track", "pgm"]
 
-  CC_defs: # is optionally generated for all CCs (not for track control!)if at least one CC has min val / max val set
+      - ["CC", 1, "ModWhl"] # label is max 6 chars, so sad
 
-Instr2Nam:
-  # see AnalogRythm.cki for more variables and drum track examples
+        # generate in CC_defs: "CC_2" : { "label" : "SomeCt", "min_val" : 0, "max_val" : 127 },      
+      - ["CC", 2, "SomeCt", 0, 127]
 
-      midi_port: 1
-      midi_chan: 14,
-      default_note: "C 0",
-      default_patt: "CK",
-      poly_spread: "off",
-      no_xpose: true,
-      no_fts: true,
-      no_thru: true,
-      no_bankM: true,
-      no_bankL: true,
-      track_values:
-        - 1, "track_control", "pgm"
+        # generate "CC_3" : { "label" : "Switch1", "min_val" : 0, "max_val" : 4, "start_val" : 2 },
+      - ["CC", 3, "Switch1", 0, 4, 2]
+
+  CC_defs: # is generated for all CCs when necessary i.e. if at least one CC has min val / max val set
       
-      row_defs:
-        # "C 0" : { "label" : "BD ", "always_show" : true },
-        - ["C 0", "BD ", true]
+  row_defs:
+    # "C 0" : { "label" : "BD ", "always_show" : true },
+    - ["C 0", "BD ", true]
