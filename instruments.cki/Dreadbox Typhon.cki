@@ -39,323 +39,323 @@
                     "MIDI_CC": 8,
                     "label": "oLevel"
                 },
-                "slot_9": {
+                "slot_10": {
                     "MIDI_CC": 9,
                     "label": "fTrack"
                 },
-                "slot_10": {
+                "slot_11": {
                     "MIDI_CC": 11,
                     "label": "fFmAmt"
                 },
-                "slot_11": {
-                    "MIDI_CC": 12,
-                    "label": "hpCut"
-                },
-                "slot_12": {
-                    "MIDI_CC": 13,
-                    "label": "hpRes"
-                },
                 "slot_13": {
-                    "MIDI_CC": 14,
-                    "label": "fx1P1"
-                },
-                "slot_14": {
-                    "MIDI_CC": 15,
-                    "label": "fx1P2"
-                },
-                "slot_15": {
-                    "MIDI_CC": 16,
-                    "label": "fx1Mix"
-                },
-                "slot_16": {
-                    "MIDI_CC": 17,
-                    "label": "fx2P1"
-                },
-                "slot_17": {
-                    "MIDI_CC": 18,
-                    "label": "fx2P2"
-                },
-                "slot_18": {
-                    "MIDI_CC": 19,
-                    "label": "fx2P3"
-                },
-                "slot_19": {
-                    "MIDI_CC": 20,
-                    "label": "fx2P4"
-                },
-                "slot_20": {
-                    "MIDI_CC": 21,
-                    "label": "fx2Mix"
-                },
-                "slot_21": {
-                    "MIDI_CC": 22,
-                    "label": "fx3P1"
-                },
-                "slot_22": {
-                    "MIDI_CC": 23,
-                    "label": "fx3P2"
-                },
-                "slot_23": {
-                    "MIDI_CC": 24,
-                    "label": "fx3P3"
-                },
-                "slot_24": {
-                    "MIDI_CC": 25,
-                    "label": "fx3P4"
-                },
-                "slot_25": {
-                    "MIDI_CC": 26,
-                    "label": "fx3Mix"
-                },
-                "slot_26": {
                     "MIDI_CC": 27,
                     "label": "f^Att"
                 },
-                "slot_27": {
+                "slot_14": {
                     "MIDI_CC": 28,
                     "label": "f^Dcy"
                 },
-                "slot_28": {
+                "slot_15": {
                     "MIDI_CC": 29,
                     "label": "f^Sus"
                 },
-                "slot_29": {
+                "slot_16": {
                     "MIDI_CC": 30,
                     "label": "f^Rel"
                 },
-                "slot_30": {
+                "slot_17": {
                     "MIDI_CC": 31,
                     "label": "f^Time"
                 },
-                "slot_31": {
+                "slot_18": {
                     "MIDI_CC": 33,
                     "label": "f^Lvl"
                 },
-                "slot_32": {
+                "slot_19": {
                     "MIDI_CC": 34,
                     "label": "^Att"
                 },
-                "slot_33": {
+                "slot_20": {
                     "MIDI_CC": 35,
                     "label": "^Dcy"
                 },
-                "slot_34": {
+                "slot_21": {
                     "MIDI_CC": 36,
                     "label": "^Sus"
                 },
-                "slot_35": {
+                "slot_22": {
                     "MIDI_CC": 37,
                     "label": "^Rel"
                 },
-                "slot_36": {
+                "slot_23": {
                     "MIDI_CC": 38,
                     "label": "^Time"
                 },
+                "slot_25": {
+                    "MIDI_CC": 12,
+                    "label": "hpCut"
+                },
+                "slot_26": {
+                    "MIDI_CC": 13,
+                    "label": "hpRes"
+                },
+                "slot_27": {
+                    "MIDI_CC": 14,
+                    "label": "fx1P1"
+                },
+                "slot_28": {
+                    "MIDI_CC": 15,
+                    "label": "fx1P2"
+                },
+                "slot_29": {
+                    "MIDI_CC": 16,
+                    "label": "fx1Mix"
+                },
+                "slot_31": {
+                    "MIDI_CC": 17,
+                    "label": "fx2P1"
+                },
+                "slot_32": {
+                    "MIDI_CC": 18,
+                    "label": "fx2P2"
+                },
+                "slot_33": {
+                    "MIDI_CC": 19,
+                    "label": "fx2P3"
+                },
+                "slot_34": {
+                    "MIDI_CC": 20,
+                    "label": "fx2P4"
+                },
+                "slot_35": {
+                    "MIDI_CC": 21,
+                    "label": "fx2Mix"
+                },
                 "slot_37": {
+                    "MIDI_CC": 22,
+                    "label": "fx3P1"
+                },
+                "slot_38": {
+                    "MIDI_CC": 23,
+                    "label": "fx3P2"
+                },
+                "slot_39": {
+                    "MIDI_CC": 24,
+                    "label": "fx3P3"
+                },
+                "slot_40": {
+                    "MIDI_CC": 25,
+                    "label": "fx3P4"
+                },
+                "slot_41": {
+                    "MIDI_CC": 26,
+                    "label": "fx3Mix"
+                },
+                "slot_43": {
                     "MIDI_CC": 40,
                     "label": "~1P1"
                 },
-                "slot_38": {
+                "slot_44": {
                     "MIDI_CC": 41,
                     "label": "~1P2"
                 },
-                "slot_39": {
+                "slot_45": {
                     "MIDI_CC": 42,
                     "label": "~1P3"
                 },
-                "slot_40": {
-                    "MIDI_CC": 43,
-                    "label": "~1CvLv"
-                },
-                "slot_41": {
-                    "MIDI_CC": 44,
-                    "label": "~1Cv1L"
-                },
-                "slot_42": {
-                    "MIDI_CC": 45,
-                    "label": "~1Cv2L"
-                },
-                "slot_43": {
+                "slot_46": {
                     "MIDI_CC": 46,
                     "label": "~1WvL"
                 },
-                "slot_44": {
+                "slot_47": {
                     "MIDI_CC": 47,
                     "label": "~1CtL"
                 },
-                "slot_45": {
+                "slot_48": {
                     "MIDI_CC": 48,
                     "label": "~1VcaL"
                 },
-                "slot_46": {
-                    "MIDI_CC": 49,
-                    "label": "~1Fx1L"
-                },
-                "slot_47": {
-                    "MIDI_CC": 50,
-                    "label": "~1FfmL"
-                },
-                "slot_48": {
-                    "MIDI_CC": 51,
-                    "label": "~1Fx2L"
-                },
                 "slot_49": {
-                    "MIDI_CC": 52,
-                    "label": "~1Fx3L"
+                    "MIDI_CC": 43,
+                    "label": "~1CvLv"
                 },
                 "slot_50": {
+                    "MIDI_CC": 44,
+                    "label": "~1Cv1L"
+                },
+                "slot_51": {
+                    "MIDI_CC": 45,
+                    "label": "~1Cv2L"
+                },
+                "slot_52": {
                     "MIDI_CC": 53,
                     "label": "~1Cust1"
                 },
-                "slot_51": {
+                "slot_53": {
                     "MIDI_CC": 54,
                     "label": "~1Cust2"
                 },
-                "slot_52": {
+                "slot_54": {
                     "MIDI_CC": 55,
                     "label": "~1Cust3"
                 },
-                "slot_53": {
+                "slot_55": {
+                    "MIDI_CC": 50,
+                    "label": "~1FfmL"
+                },
+                "slot_56": {
+                    "MIDI_CC": 49,
+                    "label": "~1Fx1L"
+                },
+                "slot_57": {
+                    "MIDI_CC": 51,
+                    "label": "~1Fx2L"
+                },
+                "slot_58": {
+                    "MIDI_CC": 52,
+                    "label": "~1Fx3L"
+                },
+                "slot_61": {
                     "MIDI_CC": 56,
                     "label": "~2P1"
                 },
-                "slot_54": {
+                "slot_62": {
                     "MIDI_CC": 57,
                     "label": "~2P2"
                 },
-                "slot_55": {
+                "slot_63": {
                     "MIDI_CC": 58,
                     "label": "~2P3"
                 },
-                "slot_56": {
-                    "MIDI_CC": 59,
-                    "label": "~2CvLv"
-                },
-                "slot_57": {
-                    "MIDI_CC": 60,
-                    "label": "~2Cv1L"
-                },
-                "slot_58": {
-                    "MIDI_CC": 61,
-                    "label": "~2Cv2L"
-                },
-                "slot_59": {
+                "slot_64": {
                     "MIDI_CC": 62,
                     "label": "~2WvL"
                 },
-                "slot_60": {
+                "slot_65": {
                     "MIDI_CC": 63,
                     "label": "~2CtL"
                 },
-                "slot_61": {
+                "slot_66": {
                     "MIDI_CC": 65,
                     "label": "~2VcaL"
                 },
-                "slot_62": {
-                    "MIDI_CC": 66,
-                    "label": "~2Fx1L"
+                "slot_67": {
+                    "MIDI_CC": 59,
+                    "label": "~2CvLv"
                 },
-                "slot_63": {
-                    "MIDI_CC": 67,
-                    "label": "~2FfmL"
+                "slot_68": {
+                    "MIDI_CC": 60,
+                    "label": "~2Cv1L"
                 },
-                "slot_64": {
-                    "MIDI_CC": 68,
-                    "label": "~2Fx2L"
+                "slot_69": {
+                    "MIDI_CC": 61,
+                    "label": "~2Cv2L"
                 },
-                "slot_65": {
-                    "MIDI_CC": 69,
-                    "label": "~2Fx3L"
-                },
-                "slot_66": {
+                "slot_70": {
                     "MIDI_CC": 70,
                     "label": "~2Cust1"
                 },
-                "slot_67": {
+                "slot_71": {
                     "MIDI_CC": 71,
                     "label": "~2Cust2"
                 },
-                "slot_68": {
+                "slot_72": {
                     "MIDI_CC": 72,
                     "label": "~2Cust3"
                 },
-                "slot_69": {
+                "slot_73": {
+                    "MIDI_CC": 66,
+                    "label": "~2Fx1L"
+                },
+                "slot_74": {
+                    "MIDI_CC": 67,
+                    "label": "~2FfmL"
+                },
+                "slot_75": {
+                    "MIDI_CC": 68,
+                    "label": "~2Fx2L"
+                },
+                "slot_76": {
+                    "MIDI_CC": 69,
+                    "label": "~2Fx3L"
+                },
+                "slot_77": {
                     "MIDI_CC": 73,
                     "label": "~3P1"
                 },
-                "slot_70": {
+                "slot_78": {
                     "MIDI_CC": 74,
                     "label": "~3P2"
                 },
-                "slot_71": {
+                "slot_79": {
                     "MIDI_CC": 75,
                     "label": "~3P3"
                 },
-                "slot_72": {
+                "slot_80": {
                     "MIDI_CC": 76,
                     "label": "~3CvLv"
                 },
-                "slot_73": {
+                "slot_81": {
                     "MIDI_CC": 77,
                     "label": "~3Cv1L"
                 },
-                "slot_74": {
+                "slot_82": {
                     "MIDI_CC": 78,
                     "label": "~3Cv2L"
                 },
-                "slot_75": {
+                "slot_83": {
                     "MIDI_CC": 79,
                     "label": "~3WvL"
                 },
-                "slot_76": {
+                "slot_84": {
                     "MIDI_CC": 80,
                     "label": "~3CtL"
                 },
-                "slot_77": {
+                "slot_85": {
                     "MIDI_CC": 81,
                     "label": "~3VcaL"
                 },
-                "slot_78": {
+                "slot_86": {
                     "MIDI_CC": 82,
                     "label": "~3Fx1L"
                 },
-                "slot_79": {
+                "slot_87": {
                     "MIDI_CC": 83,
                     "label": "~3FfmL"
                 },
-                "slot_80": {
+                "slot_88": {
                     "MIDI_CC": 84,
                     "label": "~3Fx2L"
                 },
-                "slot_81": {
+                "slot_89": {
                     "MIDI_CC": 85,
                     "label": "~3Fx3L"
                 },
-                "slot_82": {
+                "slot_90": {
                     "MIDI_CC": 86,
                     "label": "~3Cust1"
                 },
-                "slot_83": {
+                "slot_91": {
                     "MIDI_CC": 87,
                     "label": "~3Cust2"
                 },
-                "slot_84": {
+                "slot_92": {
                     "MIDI_CC": 88,
                     "label": "~3Cust3"
                 },
-                "slot_85": {
+                "slot_93": {
                     "MIDI_CC": 89,
                     "label": "SqLen"
                 },
-                "slot_86": {
+                "slot_94": {
                     "MIDI_CC": 90,
                     "label": "SqDiv"
                 },
-                "slot_87": {
+                "slot_95": {
                     "MIDI_CC": 91,
                     "label": "SqProp"
                 },
-                "slot_88": {
+                "slot_96": {
                     "MIDI_CC": 92,
                     "label": "SqSwng"
                 }
