@@ -1,20 +1,15 @@
 TODOs:
-	- fix source formatting (whitespace)
 	Arturia Microfreak:
 		- test and set correct ranges
 	Dominion Club:
-		- sort parameters into pages of 6
 		- check value range for envelop modes
 		- DIGITAL BIT REDUCE (* not working??)
 	Dreadbox Typhon:
 		- test and set correct ranges
 	Roland Sh-01a:
-		- identify ranges for Transpose SW, VCF Key Follow, VCA Env SW and VCA Env Mode, FLO Mode, Noise Mode, Assign Mode, LFO Wave Form
+
 	Waldorf Micro Q:
-		- does not load
 		- sort in pages
 		- test and set correct ranges
 	Waldorf Streichfett:
-		- does not load
-		- sort in pages
-		- test and set correct ranges
+		- test all sliders once again
