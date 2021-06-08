@@ -1,6 +1,6 @@
 {
     "instrument_data": {
-        "StreichFt": {
+        "StrFett": {
             "midi_port": 1,
             "midi_chan": 16,
             "multi": false,

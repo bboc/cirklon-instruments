@@ -1,4 +1,4 @@
-StreichFt:
+StrFett:
   midi_port: 1
   midi_chan: 16
   multi: false
@@ -23,5 +23,5 @@ StreichFt:
     - ["CC", 92, "FxAnim"]
     - ["CC", 93, "FxPhas"]
     - ["CC", 94, "FxRev"]
-    - ["CC", 0, "BANK"]
-    - ["track", "PGM"]
+    - ["CC", 0, "bank"]
+    - ["track", "pgm"]
