@@ -1,0 +1,11 @@
+TODOs:
+	- fix source formatting (whitespace)
+	Dominion Club:
+		- sort parameters into pages of 6
+		- envelope modes
+		- check value range for envelop mode
+		- DIGITAL BIT REDUCE (* not working??)
+	Waldorf Micro Q:
+		- does not load
+	Waldorf Streichfett:
+		- does not load
