@@ -54,7 +54,20 @@ All parameter names will be in [Camel case](https://en.wikipedia.org/wiki/Camel_
 
 ## Interesting Links
 
+### Other CKI resources
+
 - [Circlon Instruments Editor](https://github.com/samdoshi/cirklon-instrument-editor)
 - [Python utilities for the Sequentix Cirklon sequencer](https://github.com/pmagwene/cirklon.py)
+
+### Tutorial Videos
+
 - [Circlon very basic workflow](https://www.youtube.com/watch?v=RwFpTG3lyeg&t=259s)
+- [Cirklon Informational Video Messages](https://www.youtube.com/playlist?list=PLNEW7foH6qsAozs9VJoUlg7D7XMJvmpGX)
 - [Circlon Deep Dive Videos](https://www.youtube.com/playlist?list=PLt3aGCjETwhtagrA6bAcvMxqo3SCnrvB0)
+
+### Other Information
+
+- [How to generate Euclidean rhythm patterns in Cirklon](http://forum.sequentix.com/viewtopic.php?f=5&t=3327&p=21568&hilit=Generative#p21568)
+- [evolving random sequences](http://forum.sequentix.com/viewtopic.php?f=5&t=2591&sid=72243ac7761a0d3b1da73b3afbe357a4)
+
+
