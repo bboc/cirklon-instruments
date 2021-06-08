@@ -1,4 +1,4 @@
-StrFett:
+StreichFt:
   midi_port: 1
   midi_chan: 16
   multi: false
@@ -6,22 +6,27 @@ StrFett:
   default_patt: "P3"
 
   track_values:
-    - ["CC", 70, "StrReg"]
-    - ["CC", 71, "StrOct", 0, 2, 1]
-    - ["CC", 72, "StrRel"]
-    - ["CC", 73, "StrCre"]
-    - ["CC", 74, "EnsTy", 0, 2, 1]
-    - ["CC", 75, "EnsOn", 0, 1]
-    - ["CC", 76, "SolTon"]
-    - ["CC", 77, "SolTre"]
-    - ["CC", 78, "SolSpl", 0, 2, 1]
-    - ["CC", 80, "SolAtt"]
-    - ["CC", 81, "SolDec"]
-    - ["CC", 79, "EnvTyp", 0, 1]
-    - ["CC", 82, "Balanc"]
-    - ["CC", 91, "FxType"]
-    - ["CC", 92, "FxAnim"]
-    - ["CC", 93, "FxPhas"]
-    - ["CC", 94, "FxRev"]
-    - ["CC", 0, "bank"]
+    - ["CC", 70, "StrReg"] # String Registration
+    - ["CC", 71, "StrOct", 0, 2, 1] # String Octaves
+    - ["CC", 73, "StrCre"] # String Crescendo
+    - ["CC", 72, "StrRel"] # String Release
+    - ["CC", 74, "EnsTy", 0, 2, 1] # Ensemble Type
+    - ["CC", 75, "EnsOn", 0, 1] # Ensemble on
+
+    - ["CC", 76, "SolTon"] # Solo Tone
+    - ["CC", 77, "SolTre"] # Solo Tremolo
+    - ["CC", 78, "SolSpl", 0, 2, 1] # Solo Split
+
+    - [13, "CC", 80, "SolAtt"] # Solo Attack
+    - ["CC", 81, "SolDec"] # Solo Decay/Release
+    - ["CC", 79, "SolSus", 0, 1] # Solo Sustain on/off Type
+  
+    - [19, "CC", 82, "Balanc"]  # Balance between String and Solo
+    - ["CC", 92, "FxAnim"] # FX Animate amount
+    - ["CC", 93, "FxPhas"] # FX Phaser amount
+    - ["CC", 94, "FxRev"] # FX Reverb amount
+
+    - [24, "CC", 91, "FxType"] # FX TYpe - What is it good for when we have 3 depth controls?
+
+    - [25, "CC", 0, "bank"]
     - ["track", "pgm"]

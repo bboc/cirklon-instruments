@@ -1,6 +1,6 @@
 {
     "instrument_data": {
-        "StrFett": {
+        "StreichFt": {
             "midi_port": 1,
             "midi_chan": 16,
             "multi": false,
@@ -16,12 +16,12 @@
                     "label": "StrOct"
                 },
                 "slot_3": {
-                    "MIDI_CC": 72,
-                    "label": "StrRel"
-                },
-                "slot_4": {
                     "MIDI_CC": 73,
                     "label": "StrCre"
+                },
+                "slot_4": {
+                    "MIDI_CC": 72,
+                    "label": "StrRel"
                 },
                 "slot_5": {
                     "MIDI_CC": 74,
@@ -43,44 +43,44 @@
                     "MIDI_CC": 78,
                     "label": "SolSpl"
                 },
-                "slot_10": {
+                "slot_13": {
                     "MIDI_CC": 80,
                     "label": "SolAtt"
                 },
-                "slot_11": {
+                "slot_14": {
                     "MIDI_CC": 81,
                     "label": "SolDec"
                 },
-                "slot_12": {
+                "slot_15": {
                     "MIDI_CC": 79,
-                    "label": "EnvTyp"
+                    "label": "SolSus"
                 },
-                "slot_13": {
+                "slot_19": {
                     "MIDI_CC": 82,
                     "label": "Balanc"
                 },
-                "slot_14": {
-                    "MIDI_CC": 91,
-                    "label": "FxType"
-                },
-                "slot_15": {
+                "slot_20": {
                     "MIDI_CC": 92,
                     "label": "FxAnim"
                 },
-                "slot_16": {
+                "slot_21": {
                     "MIDI_CC": 93,
                     "label": "FxPhas"
                 },
-                "slot_17": {
+                "slot_22": {
                     "MIDI_CC": 94,
                     "label": "FxRev"
                 },
-                "slot_18": {
-                    "MIDI_CC": 0,
-                    "label": "BANK"
+                "slot_24": {
+                    "MIDI_CC": 91,
+                    "label": "FxType"
                 },
-                "slot_19": {
-                    "track_control": "PGM"
+                "slot_25": {
+                    "MIDI_CC": 0,
+                    "label": "bank"
+                },
+                "slot_26": {
+                    "track_control": "pgm"
                 }
             },
             "CC_defs": {
@@ -93,11 +93,11 @@
                     "max_val": 2,
                     "start_val": 1
                 },
-                "CC_72": {
-                    "label": "StrRel"
-                },
                 "CC_73": {
                     "label": "StrCre"
+                },
+                "CC_72": {
+                    "label": "StrRel"
                 },
                 "CC_74": {
                     "label": "EnsTy",
@@ -129,15 +129,12 @@
                     "label": "SolDec"
                 },
                 "CC_79": {
-                    "label": "EnvTyp",
+                    "label": "SolSus",
                     "min_val": 0,
                     "max_val": 1
                 },
                 "CC_82": {
                     "label": "Balanc"
-                },
-                "CC_91": {
-                    "label": "FxType"
                 },
                 "CC_92": {
                     "label": "FxAnim"
@@ -148,8 +145,11 @@
                 "CC_94": {
                     "label": "FxRev"
                 },
+                "CC_91": {
+                    "label": "FxType"
+                },
                 "CC_0": {
-                    "label": "BANK"
+                    "label": "bank"
                 }
             }
         }

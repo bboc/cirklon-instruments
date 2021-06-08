@@ -17,7 +17,7 @@ To facilitate transformation of existing scripts, a converter from JSON to YAML 
 * Roland Sh-01a.cki (beta)
 * Sherman Filterbank 2.cki (alpha)
 * Waldorf Micro Q.cki (alpha)
-* Waldorf Streichfett.cki (broken)
+* Waldorf Streichfett.cki (beta)
 
 The ZIP file always contains the latest version of any instrument.
 
