@@ -109,11 +109,11 @@
                 },
                 "slot_29": {
                     "MIDI_CC": 28,
-                    "label": "a^Sw"
+                    "label": "^Sw"
                 },
                 "slot_30": {
                     "MIDI_CC": 29,
-                    "label": "a^Mode"
+                    "label": "^Mode"
                 },
                 "slot_31": {
                     "MIDI_CC": 5,
@@ -184,10 +184,15 @@
                     "label": "~Rate"
                 },
                 "CC_11": {
-                    "label": "EXP"
+                    "label": "EXP",
+                    "min_val": 0,
+                    "max_val": 127,
+                    "start_val": 127
                 },
                 "CC_12": {
-                    "label": "~Wave"
+                    "label": "~Wave",
+                    "min_val": 0,
+                    "max_val": 5
                 },
                 "CC_19": {
                     "label": "oPulLV"
@@ -259,16 +264,22 @@
                     "label": "^Rel"
                 },
                 "CC_28": {
-                    "label": "a^Sw"
+                    "label": "^Sw",
+                    "min_val": 0,
+                    "max_val": 1
                 },
                 "CC_29": {
-                    "label": "a^Mode"
+                    "label": "^Mode",
+                    "min_val": 0,
+                    "max_val": 2
                 },
                 "CC_5": {
                     "label": "PortTM"
                 },
                 "CC_31": {
-                    "label": "PortMd"
+                    "label": "PortMd",
+                    "min_val": 0,
+                    "max_val": 2
                 },
                 "CC_65": {
                     "label": "Porta"
@@ -280,16 +291,24 @@
                     "label": "Tune"
                 },
                 "CC_77": {
-                    "label": "TansSw"
+                    "label": "TansSw",
+                    "min_val": 0,
+                    "max_val": 2
                 },
                 "CC_78": {
-                    "label": "NoizMd"
+                    "label": "NoizMd",
+                    "min_val": 0,
+                    "max_val": 1
                 },
                 "CC_79": {
-                    "label": "~Md"
+                    "label": "~Md",
+                    "min_val": 0,
+                    "max_val": 1
                 },
                 "CC_80": {
-                    "label": "AssMd"
+                    "label": "AssMd",
+                    "min_val": 0,
+                    "max_val": 3
                 },
                 "CC_81": {
                     "label": "ChV2Sw"

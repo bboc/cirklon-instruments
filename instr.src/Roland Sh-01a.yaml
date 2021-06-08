@@ -8,8 +8,8 @@ Sh-01a:
   track_values:
     - ["CC", 1, "Mod"] # MODULATION
     - ["CC", 3, "~Rate"] #  LFO RATE
-    - ["CC", 11, "EXP"] #  EXPRESSION PEDAL
-    - ["CC", 12, "~Wave"] # LFO WAVE FORM (*)
+    - ["CC", 11, "EXP", 0, 127, 127] #  EXPRESSION PEDAL
+    - ["CC", 12, "~Wave", 0, 5] # LFO WAVE FORM
 
     # Osc (1)
     - [7, "CC", 19, "oPulLV"] # VCO PWM LEVEL
@@ -39,21 +39,21 @@ Sh-01a:
     - ["CC", 75, "^Dcy"] # ENV DECAY
     - ["CC", 30, "^Sus"] # ENV SUSTAIN 
     - ["CC", 72, "^Rel"] # ENV RELEASE
-    - ["CC", 28, "a^Sw"] #  VCA ENV SW (*)
-    - ["CC", 29, "a^Mode"] # VCA ENV MODE (*)
+    - ["CC", 28, "^Sw", 0, 1] #  VCA ENV SW
+    - ["CC", 29, "^Mode", 0, 2] # VCA ENV MODE
 
     # Glide & Tune
     - ["CC", 5, "PortTM"] #  PORTAMENTO TIME 
-    - ["CC", 31, "PortMd"] # PORTAMENT MODE (*)
+    - ["CC", 31, "PortMd", 0,2] # PORTAMENT MODE
     - ["CC", 65, "Porta"] # PORTAMENTO
     - ["CC", 64, "Hold"] # HOLD 
     - ["CC", 76, "Tune"] # TUNE
-    - ["CC", 77, "TansSw"] # TRANSPOSE SW (*)
+    - ["CC", 77, "TansSw", 0, 2] # TRANSPOSE SW
 
     # Modes 
-    - ["CC", 78, "NoizMd"] # NOISE MODE (*)
-    - ["CC", 79, "~Md"] # LFO MODE (*)
-    - ["CC", 80, "AssMd"] # ASSIGN MODE (*)
+    - ["CC", 78, "NoizMd", 0, 1] # NOISE MODE (Normal, Advanced)
+    - ["CC", 79, "~Md", 0, 1] # LFO MODE (Slow, Fast)
+    - ["CC", 80, "AssMd",0 ,3] # ASSIGN MODE (Mono/Uni/Poly/Chord)
 
     # Chord
     - [43, "CC", 81, "ChV2Sw"] # CHORD VOICE 2 SW 
