@@ -23,157 +23,291 @@
                     "MIDI_CC": 12,
                     "label": "~Wave"
                 },
-                "slot_5": {
-                    "MIDI_CC": 13,
-                    "label": "~Depth"
-                },
-                "slot_6": {
-                    "MIDI_CC": 14,
-                    "label": "oRange"
-                },
                 "slot_7": {
-                    "MIDI_CC": 15,
-                    "label": "oPw"
-                },
-                "slot_8": {
-                    "MIDI_CC": 16,
-                    "label": "PwmSrc"
-                },
-                "slot_9": {
-                    "MIDI_CC": 17,
-                    "label": "oModIn"
-                },
-                "slot_10": {
-                    "MIDI_CC": 18,
-                    "label": "oBendDp"
-                },
-                "slot_11": {
                     "MIDI_CC": 19,
                     "label": "oPulLV"
                 },
-                "slot_12": {
+                "slot_8": {
                     "MIDI_CC": 20,
                     "label": "oSawLV"
                 },
-                "slot_13": {
+                "slot_9": {
                     "MIDI_CC": 21,
                     "label": "oSubLv"
                 },
-                "slot_14": {
+                "slot_10": {
                     "MIDI_CC": 22,
                     "label": "oSubTy"
                 },
-                "slot_15": {
+                "slot_11": {
                     "MIDI_CC": 23,
                     "label": "oNoiLv"
                 },
+                "slot_13": {
+                    "MIDI_CC": 15,
+                    "label": "oPw"
+                },
+                "slot_14": {
+                    "MIDI_CC": 16,
+                    "label": "PwmSrc"
+                },
+                "slot_15": {
+                    "MIDI_CC": 13,
+                    "label": "~Depth"
+                },
                 "slot_16": {
+                    "MIDI_CC": 14,
+                    "label": "oRange"
+                },
+                "slot_17": {
+                    "MIDI_CC": 17,
+                    "label": "oModDp"
+                },
+                "slot_18": {
+                    "MIDI_CC": 18,
+                    "label": "oBendDp"
+                },
+                "slot_19": {
                     "MIDI_CC": 74,
                     "label": "fCut"
                 },
-                "slot_17": {
+                "slot_20": {
                     "MIDI_CC": 71,
                     "label": "fRes"
                 },
-                "slot_18": {
-                    "MIDI_CC": 24,
-                    "label": "f^Dp"
-                },
-                "slot_19": {
-                    "MIDI_CC": 25,
-                    "label": "fModDp"
-                },
-                "slot_20": {
+                "slot_21": {
                     "MIDI_CC": 26,
                     "label": "fKeyF"
                 },
-                "slot_21": {
+                "slot_22": {
+                    "MIDI_CC": 24,
+                    "label": "f^Dp"
+                },
+                "slot_23": {
+                    "MIDI_CC": 25,
+                    "label": "fModDp"
+                },
+                "slot_24": {
                     "MIDI_CC": 27,
                     "label": "fBndDp"
                 },
-                "slot_22": {
-                    "MIDI_CC": 28,
-                    "label": "a^Sw"
-                },
-                "slot_23": {
-                    "MIDI_CC": 29,
-                    "label": "a^Mode"
-                },
-                "slot_24": {
+                "slot_25": {
                     "MIDI_CC": 73,
                     "label": "^Atk"
                 },
-                "slot_25": {
+                "slot_26": {
                     "MIDI_CC": 75,
                     "label": "^Dcy"
                 },
-                "slot_26": {
+                "slot_27": {
                     "MIDI_CC": 30,
                     "label": "^Sus"
                 },
-                "slot_27": {
+                "slot_28": {
                     "MIDI_CC": 72,
                     "label": "^Rel"
                 },
-                "slot_28": {
+                "slot_29": {
+                    "MIDI_CC": 28,
+                    "label": "a^Sw"
+                },
+                "slot_30": {
+                    "MIDI_CC": 29,
+                    "label": "a^Mode"
+                },
+                "slot_31": {
                     "MIDI_CC": 5,
                     "label": "PortTM"
                 },
-                "slot_29": {
+                "slot_32": {
                     "MIDI_CC": 31,
                     "label": "PortMd"
                 },
-                "slot_30": {
+                "slot_33": {
                     "MIDI_CC": 65,
                     "label": "Porta"
                 },
-                "slot_31": {
+                "slot_34": {
                     "MIDI_CC": 64,
                     "label": "Hold"
                 },
-                "slot_32": {
+                "slot_35": {
                     "MIDI_CC": 76,
                     "label": "Tune"
                 },
-                "slot_33": {
+                "slot_36": {
                     "MIDI_CC": 77,
                     "label": "TansSw"
                 },
-                "slot_34": {
+                "slot_37": {
                     "MIDI_CC": 78,
                     "label": "NoizMd"
                 },
-                "slot_35": {
+                "slot_38": {
                     "MIDI_CC": 79,
                     "label": "~Md"
                 },
-                "slot_36": {
+                "slot_39": {
                     "MIDI_CC": 80,
                     "label": "AssMd"
                 },
-                "slot_37": {
+                "slot_43": {
                     "MIDI_CC": 81,
-                    "label": "CrV2Sw"
+                    "label": "ChV2Sw"
                 },
-                "slot_38": {
-                    "MIDI_CC": 82,
-                    "label": "CrV3Sw"
-                },
-                "slot_39": {
-                    "MIDI_CC": 83,
-                    "label": "CrV4Sw"
-                },
-                "slot_40": {
+                "slot_44": {
                     "MIDI_CC": 85,
-                    "label": "CrV2Ks"
+                    "label": "ChV2Sh"
                 },
-                "slot_41": {
+                "slot_45": {
+                    "MIDI_CC": 82,
+                    "label": "ChV3Sw"
+                },
+                "slot_46": {
                     "MIDI_CC": 86,
-                    "label": "CrV3Ks"
+                    "label": "ChV3Sh"
                 },
-                "slot_42": {
+                "slot_47": {
+                    "MIDI_CC": 83,
+                    "label": "ChV4Sw"
+                },
+                "slot_48": {
                     "MIDI_CC": 87,
-                    "label": "CrV4Ks"
+                    "label": "ChV4Sh"
+                }
+            },
+            "CC_defs": {
+                "CC_1": {
+                    "label": "Mod"
+                },
+                "CC_3": {
+                    "label": "~Rate"
+                },
+                "CC_11": {
+                    "label": "EXP"
+                },
+                "CC_12": {
+                    "label": "~Wave"
+                },
+                "CC_19": {
+                    "label": "oPulLV"
+                },
+                "CC_20": {
+                    "label": "oSawLV"
+                },
+                "CC_21": {
+                    "label": "oSubLv"
+                },
+                "CC_22": {
+                    "label": "oSubTy",
+                    "min_val": 0,
+                    "max_val": 2
+                },
+                "CC_23": {
+                    "label": "oNoiLv"
+                },
+                "CC_15": {
+                    "label": "oPw"
+                },
+                "CC_16": {
+                    "label": "PwmSrc",
+                    "min_val": 0,
+                    "max_val": 2
+                },
+                "CC_13": {
+                    "label": "~Depth"
+                },
+                "CC_14": {
+                    "label": "oRange",
+                    "min_val": 0,
+                    "max_val": 5
+                },
+                "CC_17": {
+                    "label": "oModDp"
+                },
+                "CC_18": {
+                    "label": "oBendDp"
+                },
+                "CC_74": {
+                    "label": "fCut"
+                },
+                "CC_71": {
+                    "label": "fRes"
+                },
+                "CC_26": {
+                    "label": "fKeyF"
+                },
+                "CC_24": {
+                    "label": "f^Dp"
+                },
+                "CC_25": {
+                    "label": "fModDp"
+                },
+                "CC_27": {
+                    "label": "fBndDp"
+                },
+                "CC_73": {
+                    "label": "^Atk"
+                },
+                "CC_75": {
+                    "label": "^Dcy"
+                },
+                "CC_30": {
+                    "label": "^Sus"
+                },
+                "CC_72": {
+                    "label": "^Rel"
+                },
+                "CC_28": {
+                    "label": "a^Sw"
+                },
+                "CC_29": {
+                    "label": "a^Mode"
+                },
+                "CC_5": {
+                    "label": "PortTM"
+                },
+                "CC_31": {
+                    "label": "PortMd"
+                },
+                "CC_65": {
+                    "label": "Porta"
+                },
+                "CC_64": {
+                    "label": "Hold"
+                },
+                "CC_76": {
+                    "label": "Tune"
+                },
+                "CC_77": {
+                    "label": "TansSw"
+                },
+                "CC_78": {
+                    "label": "NoizMd"
+                },
+                "CC_79": {
+                    "label": "~Md"
+                },
+                "CC_80": {
+                    "label": "AssMd"
+                },
+                "CC_81": {
+                    "label": "ChV2Sw"
+                },
+                "CC_85": {
+                    "label": "ChV2Sh"
+                },
+                "CC_82": {
+                    "label": "ChV3Sw"
+                },
+                "CC_86": {
+                    "label": "ChV3Sh"
+                },
+                "CC_83": {
+                    "label": "ChV4Sw"
+                },
+                "CC_87": {
+                    "label": "ChV4Sh"
                 }
             }
         }

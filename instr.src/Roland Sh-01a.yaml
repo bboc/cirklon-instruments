@@ -7,44 +7,59 @@ Sh-01a:
 
   track_values:
     - ["CC", 1, "Mod"] # MODULATION
-    - ["CC", 3, "~Rate"] #  LFO RATE 
-    - ["CC", 11, "EXP"] #  EXPRESSION PEDAL 
+    - ["CC", 3, "~Rate"] #  LFO RATE
+    - ["CC", 11, "EXP"] #  EXPRESSION PEDAL
     - ["CC", 12, "~Wave"] # LFO WAVE FORM
-    - ["CC", 13, "~Depth"] # VCO MOD DEPTH 
-    - ["CC", 14, "oRange"] # VCO RANGE
-    - ["CC", 15, "oPw"] # VCO PULSE WIDTH
-    - ["CC", 16, "PwmSrc"] # VCO PWM SOURCE
-    - ["CC", 17, "oModIn"] # VCO MOD SENS
-    - ["CC", 18, "oBendDp"] # VCO BEND DEPTH 
-    - ["CC", 19, "oPulLV"] # VCO PWM LEVEL
+
+
+    # Osc (1)
+    - [7, "CC", 19, "oPulLV"] # VCO PWM LEVEL
     - ["CC", 20, "oSawLV"] # VCO SAW LEVEL
     - ["CC", 21, "oSubLv"] # VCO SUB LEVEL
-    - ["CC", 22, "oSubTy"] # VCO SUB TYPE
+    - ["CC", 22, "oSubTy", 0, 2] # VCO SUB TYPE
     - ["CC", 23, "oNoiLv"] # VCO NOISE LEVEL 
+
+    # Osc (2)
+    - [13, "CC", 15, "oPw"] # VCO PULSE WIDTH
+    - ["CC", 16, "PwmSrc", 0, 2] # VCO PWM SOURCE
+    - ["CC", 13, "~Depth"] # VCO MOD DEPTH 
+    - ["CC", 14, "oRange", 0, 5] # VCO RANGE
+    - ["CC", 17, "oModDp"] # VCO MOD SENS
+    - ["CC", 18, "oBendDp"] # VCO BEND DEPTH 
+
+    # VCF
     - ["CC", 74, "fCut"] # VCF CUTOFF
     - ["CC", 71, "fRes"] # VCF RESONANCE
+    - ["CC", 26, "fKeyF"] # VCF KEY FOLLOW
     - ["CC", 24, "f^Dp"] # VCF ENV DEPTH
     - ["CC", 25, "fModDp"] # VCF MOD DEPTH
-    - ["CC", 26, "fKeyF"] # VCF KEY FOLLOW
     - ["CC", 27, "fBndDp"] # VCF BEND DEPTH
-    - ["CC", 28, "a^Sw"] #  VCA ENV SW
-    - ["CC", 29, "a^Mode"] # VCA ENV MODE
+
+    # Env
     - ["CC", 73, "^Atk"] # ENV ATTACK
     - ["CC", 75, "^Dcy"] # ENV DECAY
     - ["CC", 30, "^Sus"] # ENV SUSTAIN 
     - ["CC", 72, "^Rel"] # ENV RELEASE
+    - ["CC", 28, "a^Sw"] #  VCA ENV SW
+    - ["CC", 29, "a^Mode"] # VCA ENV MODE
+
+    # Glide & Tune
     - ["CC", 5, "PortTM"] #  PORTAMENTO TIME 
     - ["CC", 31, "PortMd"] # PORTAMENT MODE 
     - ["CC", 65, "Porta"] # PORTAMENTO
     - ["CC", 64, "Hold"] # HOLD 
     - ["CC", 76, "Tune"] # TUNE
-    - ["CC", 77, "TansSw"] # TRANSPOSE SW
+    - ["CC", 77, "TansSw"] # TRANSPOSE SW (*)
+
+    # Modes 
     - ["CC", 78, "NoizMd"] # NOISE MODE
     - ["CC", 79, "~Md"] # LFO MODE
     - ["CC", 80, "AssMd"] # ASSIGN MODE
-    - ["CC", 81, "CrV2Sw"] # CHORD VOICE 2 SW 
-    - ["CC", 82, "CrV3Sw"] # CHORD VOICE 3 SW 
-    - ["CC", 83, "CrV4Sw"] # CHORD VOICE 4 SW 
-    - ["CC", 85, "CrV2Ks"] # CHORD VOICE 2 KEY SHIFT 
-    - ["CC", 86, "CrV3Ks"] # CHORD VOICE 3 KEY SHIFT 
-    - ["CC", 87, "CrV4Ks"] # CHORD VOICE 4 KEY SHIFT
+
+    # Chord
+    - [43, "CC", 81, "ChV2Sw"] # CHORD VOICE 2 SW 
+    - ["CC", 85, "ChV2Sh"] # CHORD VOICE 2 KEY SHIFT 
+    - ["CC", 82, "ChV3Sw"] # CHORD VOICE 3 SW 
+    - ["CC", 86, "ChV3Sh"] # CHORD VOICE 3 KEY SHIFT 
+    - ["CC", 83, "ChV4Sw"] # CHORD VOICE 4 SW 
+    - ["CC", 87, "ChV4Sh"] # CHORD VOICE 4 KEY SHIFT
