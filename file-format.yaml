@@ -41,6 +41,20 @@ InstrName: # max 9 characters
         # generate "CC_3" : { "label" : "Switch1", "min_val" : 0, "max_val" : 4, "start_val" : 2 },
       - ["CC", 3, "Switch1", 0, 4, 2]
 
+      # available values for track_control
+      - ["track", "pgm"]
+      - ["track", "quant%"]
+      - ["track", "note%"]
+      - ["track", "noteC"]
+      - ["track", "velo%"]
+      - ["track", "veloC"]
+      - ["track", "leng%"]
+      - ["track", "tbase"]
+      - ["track", "octave"]
+      - ["track", "knob1"]
+      - ["track", "knob2"]
+
+
   CC_defs: # is generated for all CCs when necessary i.e. if at least one CC has min val / max val set
       
   row_defs:
