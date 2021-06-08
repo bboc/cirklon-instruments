@@ -1,6 +1,6 @@
 {
     "instrument_data": {
-        "Micro Q": {
+        "Micro-Q": {
             "midi_port": 1,
             "midi_chan": 1,
             "multi": true,
