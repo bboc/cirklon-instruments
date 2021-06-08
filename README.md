@@ -11,12 +11,12 @@ To facilitate transformation of existing scripts, a converter from JSON to YAML 
 
 [Download a ZIP file](https://downgit.github.io/#/home?url=https://github.com/bboc/cirklon-instruments/blob/main/instruments.cki) that contains the following instruments:
 
-* [rturia MicroFreak.cki (experimental)
-* Dreadbox Typhon.cki (experimental)
+* Arturia MicroFreak.cki (alpha)
+* Dreadbox Typhon.cki (alpha)
 * [MFB Dominion Club.cki (beta)
 * Roland Sh-01a.cki (beta)
-* Sherman Filterbank 2.cki
-* Waldorf Micro Q.cki (broken)
+* Sherman Filterbank 2.cki (alpha)
+* Waldorf Micro Q.cki (alpha)
 * Waldorf Streichfett.cki (broken)
 
 The ZIP file always contains the latest version of any instrument.

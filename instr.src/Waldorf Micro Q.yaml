@@ -1,4 +1,4 @@
-Micro-Q:
+"Micro-Q":
   midi_port: 1
   midi_chan: 1
   multi: true
@@ -76,7 +76,7 @@ Micro-Q:
     - ["CC", 85, "f2-vel"]
     - ["CC", 82, "f2-drv"]
     - ["track", "knob1"]
-    - ["track", knob2"]
+    - ["track", "knob2"]
     - ["track", "velo%"]
     - ["track", "leng%"]
     - ["track", "quant%"]
