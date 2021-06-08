@@ -39,14 +39,14 @@ All parameter names will be in [Camel case](https://en.wikipedia.org/wiki/Camel_
 
 - Oscillator: 'o', 'o1'
 - Suboscillator: 'su'
-- Level
-- Modulation Intensity
+- Level: 'Lv' or 'Lvl'
 - Envelope: '^', '^1'
 - LFO: '~', '~1'
 - Noise: 'Nz'
 - Depth (=Intensity): 'Dp'
 - Mode 'Md'
 - Type: 'Ty'
+- Interval: 'Int' (or Ivl?)
 
 
 ## Interesting Links
