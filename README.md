@@ -7,6 +7,17 @@ Since the CKI files are JSON and contain a large amount of formatting and duplic
 To facilitate transformation of existing scripts, a converter from JSON to YAML is included in the script.
 
 
+## Download the Instruments
+
+* [Arturia MicroFreak.cki](https://github.com/bboc/cirklon-instruments/blob/main/instruments.cki/Arturia%20MicroFreak.cki) (experimental)
+* [Dreadbox Typhon.cki](https://github.com/bboc/cirklon-instruments/raw/main/instruments.cki/Dreadbox%20Typhon.cki) (experimental)
+* [MFB Dominion Club.cki](https://github.com/bboc/cirklon-instruments/blob/main/instruments.cki/MFB%20Dominion%20Club.cki) (experimental)
+* [Roland Sh-01a.cki](https://github.com/bboc/cirklon-instruments/blob/main/instruments.cki/Roland%20Sh-01a.cki) (experimental)
+* [Sherman Filterbank 2.cki](https://github.com/bboc/cirklon-instruments/blob/main/instruments.cki/Sherman%20Filterbank%202.cki)
+* [Waldorf Micro Q.cki](https://github.com/bboc/cirklon-instruments/blob/main/instruments.cki/Waldorf%20Micro%20Q.cki) (broken)
+* [Waldorf Streichfett.cki](https://github.com/bboc/cirklon-instruments/blob/main/instruments.cki/Waldorf%20Streichfett.cki) (broken)
+
+
 ## CKI Format
 
 (see file-format.yaml, a documented example of the file format)
