@@ -1,0 +1,26 @@
+BassStaRa:
+  midi_port: 1
+  midi_chan: 11
+  multi: false
+  default_note: "C 3"
+  default_patt: "P3"
+
+  track_values:
+    - ["CC", 1, "Mod"] # 
+    - ["CC", 2, "Breath"] # 
+
+    - [4, "CC", 105, "fCut"] # 
+    - ["CC", 106, "fRes"] # 
+    - ["CC", 107, "fModDp"] # 
+
+    - [7, "CC", 108, "^1Atk"] # 
+    - ["CC", 109, "^1Dcy"] # 
+    - ["CC", 110, "^1Sus"] # 
+    - ["CC", 111, "^1Rel"] # 
+    - [12, "CC", 112, "^1Vel"] # 
+
+    - [13, "CC", 114, "^2Atk"] # 
+    - ["CC", 115, "^2Dcy"] # 
+    - ["CC", 116, "^2Sus"] # 
+    - ["CC", 117, "^2Rel"] # 
+    - [18, "CC", 118, "^2Vel"] # 

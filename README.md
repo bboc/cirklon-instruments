@@ -14,6 +14,7 @@ To facilitate transformation of existing scripts, a converter from JSON to YAML 
 * Arturia MicroFreak.cki (alpha)
 * Dreadbox Typhon.cki (alpha)
 * [MFB Dominion Club.cki (beta)
+* Novation Bass Station Rack.cki (alpha)
 * Roland Sh-01a.cki (beta)
 * Sherman Filterbank 2.cki (alpha)
 * Waldorf Micro Q.cki (alpha)

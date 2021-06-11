@@ -1,0 +1,73 @@
+{
+    "instrument_data": {
+        "BassStaRa": {
+            "midi_port": 1,
+            "midi_chan": 11,
+            "multi": false,
+            "default_note": "C 3",
+            "default_patt": "P3",
+            "track_values": {
+                "slot_1": {
+                    "MIDI_CC": 1,
+                    "label": "Mod"
+                },
+                "slot_2": {
+                    "MIDI_CC": 2,
+                    "label": "Breath"
+                },
+                "slot_4": {
+                    "MIDI_CC": 105,
+                    "label": "fCut"
+                },
+                "slot_5": {
+                    "MIDI_CC": 106,
+                    "label": "fRes"
+                },
+                "slot_6": {
+                    "MIDI_CC": 107,
+                    "label": "fModDp"
+                },
+                "slot_7": {
+                    "MIDI_CC": 108,
+                    "label": "^1Atk"
+                },
+                "slot_8": {
+                    "MIDI_CC": 109,
+                    "label": "^1Dcy"
+                },
+                "slot_9": {
+                    "MIDI_CC": 110,
+                    "label": "^1Sus"
+                },
+                "slot_10": {
+                    "MIDI_CC": 111,
+                    "label": "^1Rel"
+                },
+                "slot_12": {
+                    "MIDI_CC": 112,
+                    "label": "^1Vel"
+                },
+                "slot_13": {
+                    "MIDI_CC": 114,
+                    "label": "^2Atk"
+                },
+                "slot_14": {
+                    "MIDI_CC": 115,
+                    "label": "^2Dcy"
+                },
+                "slot_15": {
+                    "MIDI_CC": 116,
+                    "label": "^2Sus"
+                },
+                "slot_16": {
+                    "MIDI_CC": 117,
+                    "label": "^2Rel"
+                },
+                "slot_18": {
+                    "MIDI_CC": 118,
+                    "label": "^2Vel"
+                }
+            }
+        }
+    }
+}
