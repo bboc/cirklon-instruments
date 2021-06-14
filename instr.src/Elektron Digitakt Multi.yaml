@@ -1,0 +1,62 @@
+DigitaktK:
+  midi_port: 4
+  midi_chan: 10
+  multi: true
+  poly_spread: 'off'
+  track_values:
+    # Track
+  - ["track", "pgm"]
+  - ["CC", 99, "TrkLvl"]
+
+  # Trigger 
+  - [4, "CC", 3, "TrgNot",36, 60, 84] # Trigger Note, default C3 ±24
+  - ["CC", 4, "TrgVel", 127]
+  - ["CC", 5, "TrgLen"]
+  
+  # Source
+  - [7, "CC", 16, "sTune±", 0, 127, 64] # (*) bipolar
+  - ["CC", 17, "sMode", 0, 4] # (*) Play Mode (Rev, RevLoop, FwdLoop, Fwd)
+  - ["CC", 19, "SmplNo"]
+  - ["CC", 20, "sStart"]
+  - ["CC", 21, "sLen"]
+  - ["CC", 22, "sLoop"]
+
+  # Filter 
+  - [13, "CC", 74, "fCut"]
+  - ["CC", 75, "fRes"]
+  - ["CC", 77, "f^Dep±", 0, 127, 64] # (*) bipolar
+  - ["CC", 76, "fType", 0, 2] # (*) Filter Type (off, LP, HP)
+  - [18, "CC", 18, "sBit"] # (*) Sample Bitrate
+  
+  - [19, "CC", 81, "Drive"]
+  - ["CC", 23, "sLevel"]
+  - ["CC", 7, "Volume"]
+  - ["CC", 10, "Pan"]
+  - ["CC", 82, "SndDel"]
+  - ["CC", 83, "SndRev"]
+
+  # Filter Env
+  - [25, "CC", 70, "f^Atk"]
+  - ["CC", 71, "f^Dcy"]
+  - ["CC", 72, "f^Sus"]
+  - ["CC", 73, "f^Rel"]
+
+  - [30, "CC", 13, "f^Trig", 0, 1] # (*)
+
+  # Amp
+  - [31, "CC", 78, "a^Atk"]
+  - ["CC", 79, "a^Hold"]
+  - ["CC", 80, "a^Dcy"]
+
+  # LFO 
+  - [37, "CC", 102, "~Spd±", 0, 127, 64] # (*) bipolar
+  - ["CC", 103, "~Mult"] # LFO Multiply
+  - ["CC", 104, "~Fade±", 0, 127, 64] # (*) bipolar
+  - ["CC", 109, "~Dpth±", 0, 127, 64] # (*) bipolar
+  - ["CC", 106, "~Wave", 0, 6] # (*) 7
+  - ["CC", 107, "~Phase"]
+
+  # LFO 2
+  - [43, "CC", 108, "~Mode", 0, 4] # (*)
+  - ["CC", 105, "~Dest"] # (*)
+  - ["CC", 14, "~Trig", 1, 1] # (*)
