@@ -13,7 +13,9 @@ To facilitate transformation of existing scripts, a converter from JSON to YAML 
 
 * Arturia MicroFreak.cki (alpha)
 * Dreadbox Typhon.cki (alpha)
-* [MFB Dominion Club.cki (beta)
+* Elektron Digitakt Kit (inkluding FX Control) (alpha)
+* Elektron Digitakt Multi (full parameter set for each sound) (alpha)
+* MFB Dominion Club.cki (beta)
 * Novation Bass Station Rack.cki (alpha)
 * Roland Sh-01a.cki (beta)
 * Sherman Filterbank 2.cki (alpha)

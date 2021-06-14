@@ -1,0 +1,53 @@
+DigitaktK: # Digitakt Kit and FX Parameters
+  midi_port: 4
+  midi_chan: 10
+  multi: false
+  poly_spread: 'off'
+  row_defs:
+    - ["C 0", "BD"]
+    - ["C#0", "'SD"]
+    - ["D 0", "'TM"]
+    - ["D#0", "'CP"]
+    - ["E 0", "'CB"]
+    - ["F 0", "'CH"]
+    - ["F#0", "'OH"]
+    - ["G 0", "'CY"]
+  track_values:
+    - ["track", "pgm"]
+
+    # Delay
+    - [7, "CC", 85, "D.Time"]
+    - ["CC", 88, "D.Feed"]
+    - ["CC", 86, "D.Ping"] # *
+    - ["CC", 92, "D.Vol"]
+
+    # Delay 2
+    - [13, "CC", 89, "D.HP"]
+    - ["CC", 90, "D.LP"]
+    - ["CC", 87, "D.Widt"]
+    - ["CC", 91, "D->Rev"]
+    # Reverb
+    - [19, "CC", 24, "R.Pre"]
+    - ["CC", 25, "R.Dcy"]
+    - ["CC", 26, "R.ShFr"] # Shelf Frequency
+    - ["CC", 27, "R.ShGn"] # Shelf Gain
+    - ["CC", 31, "R.MxVol"]
+
+    # Reverb 2
+    - [25, "CC", 28, "R.HP"]
+    - ["CC", 29, "R.LP"]
+    - ["CC", 31, "R.CmpP"] # Pre or Post compressor(*)
+
+    # Compressor
+    - [31, "CC", 111, "Thrs"]
+    - ["CC", 112, "Atk"]
+    - ["CC", 113, "Rel"]
+    - ["CC", 115, "Ratio"]
+    - ["CC", 114, "GainMU"]
+
+    # Compressor 2
+    - [37, "CC", 116, "SC.Src"] # Sidechain Source (L/R or 1-8)
+    - ["CC", 117, "SC.Fil"] # Sidechain filter
+    - [40, "CC", 119, "PVol"]
+    - ["CC", 118, "DryWet"]
+

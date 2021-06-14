@@ -1,6 +1,7 @@
 all:
 	python convert.py "Arturia MicroFreak"
 	python convert.py "Dreadbox Typhon"
+	python convert.py "Elektron Digitakt Kit"
 	python convert.py "MFB Dominion Club"
 	python convert.py "Novation Bass Station Rack"
 	python convert.py "Roland Sh-01a"
@@ -9,4 +10,4 @@ all:
 	python convert.py "Waldorf Streichfett"
 
 test:
-	python convert.py "Novation Bass Station Rack"
+	python convert.py "Elektron Digitakt Multi"

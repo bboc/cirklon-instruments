@@ -1,0 +1,149 @@
+{
+    "instrument_data": {
+        "DigitaktK": {
+            "midi_port": 4,
+            "midi_chan": 10,
+            "multi": false,
+            "poly_spread": "off",
+            "track_values": {
+                "slot_1": {
+                    "track_control": "pgm"
+                },
+                "slot_7": {
+                    "MIDI_CC": 85,
+                    "label": "D.Time"
+                },
+                "slot_8": {
+                    "MIDI_CC": 88,
+                    "label": "D.Feed"
+                },
+                "slot_9": {
+                    "MIDI_CC": 86,
+                    "label": "D.Ping"
+                },
+                "slot_10": {
+                    "MIDI_CC": 92,
+                    "label": "D.Vol"
+                },
+                "slot_13": {
+                    "MIDI_CC": 89,
+                    "label": "D.HP"
+                },
+                "slot_14": {
+                    "MIDI_CC": 90,
+                    "label": "D.LP"
+                },
+                "slot_15": {
+                    "MIDI_CC": 87,
+                    "label": "D.Widt"
+                },
+                "slot_16": {
+                    "MIDI_CC": 91,
+                    "label": "D->Rev"
+                },
+                "slot_19": {
+                    "MIDI_CC": 24,
+                    "label": "R.Pre"
+                },
+                "slot_20": {
+                    "MIDI_CC": 25,
+                    "label": "R.Dcy"
+                },
+                "slot_21": {
+                    "MIDI_CC": 26,
+                    "label": "R.ShFr"
+                },
+                "slot_22": {
+                    "MIDI_CC": 27,
+                    "label": "R.ShGn"
+                },
+                "slot_23": {
+                    "MIDI_CC": 31,
+                    "label": "R.MxVol"
+                },
+                "slot_25": {
+                    "MIDI_CC": 28,
+                    "label": "R.HP"
+                },
+                "slot_26": {
+                    "MIDI_CC": 29,
+                    "label": "R.LP"
+                },
+                "slot_27": {
+                    "MIDI_CC": 31,
+                    "label": "R.CmpP"
+                },
+                "slot_31": {
+                    "MIDI_CC": 111,
+                    "label": "Thrs"
+                },
+                "slot_32": {
+                    "MIDI_CC": 112,
+                    "label": "Atk"
+                },
+                "slot_33": {
+                    "MIDI_CC": 113,
+                    "label": "Rel"
+                },
+                "slot_34": {
+                    "MIDI_CC": 115,
+                    "label": "Ratio"
+                },
+                "slot_35": {
+                    "MIDI_CC": 114,
+                    "label": "GainMU"
+                },
+                "slot_37": {
+                    "MIDI_CC": 116,
+                    "label": "SC.Src"
+                },
+                "slot_38": {
+                    "MIDI_CC": 117,
+                    "label": "SC.Fil"
+                },
+                "slot_40": {
+                    "MIDI_CC": 119,
+                    "label": "PVol"
+                },
+                "slot_41": {
+                    "MIDI_CC": 118,
+                    "label": "DryWet"
+                }
+            },
+            "row_defs": {
+                "C 0": {
+                    "label": "BD",
+                    "always_show": true
+                },
+                "C#0": {
+                    "label": "'SD",
+                    "always_show": true
+                },
+                "D 0": {
+                    "label": "'TM",
+                    "always_show": true
+                },
+                "D#0": {
+                    "label": "'CP",
+                    "always_show": true
+                },
+                "E 0": {
+                    "label": "'CB",
+                    "always_show": true
+                },
+                "F 0": {
+                    "label": "'CH",
+                    "always_show": true
+                },
+                "F#0": {
+                    "label": "'OH",
+                    "always_show": true
+                },
+                "G 0": {
+                    "label": "'CY",
+                    "always_show": true
+                }
+            }
+        }
+    }
+}
