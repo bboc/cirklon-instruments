@@ -67,17 +67,7 @@ class CirklonInstrument(object):
             instrument_data[CC_DEFS] = self._make_cc_defs(midi_cc_data)
 
         if ROW_DEFS in raw_instrument:
-            row_defs = {}
-            for row in raw_instrument[ROW_DEFS]:
-                note = row[0]
-                label = row[1]
-                if len(row) > 2:
-                    always_show = row[2]
-                else:
-                    always_show = True
-                row_defs[note] = {"label": label, "always_show": always_show}
-
-        instrument_data[ROW_DEFS] = row_defs
+            instrument_data[ROW_DEFS] = self._make_row_defs(raw_instrument)
         return instrument_data
 
     def _make_track_data(self, raw_instrument):
@@ -137,6 +127,19 @@ class CirklonInstrument(object):
 
             cc_defs["CC_%s" % item[0]] = cc_data
         return cc_defs
+
+    def _make_row_defs(self, raw_instrument):
+        row_defs = {}
+        for row in raw_instrument[ROW_DEFS]:
+            note = row[0]
+            label = row[1]
+            if len(row) > 2:
+                always_show = row[2]
+            else:
+                always_show = True
+            row_defs[note] = {"label": label, "always_show": always_show}
+
+        return row_defs
 
 
 if __name__ == "__main__":
