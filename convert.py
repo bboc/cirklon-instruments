@@ -66,8 +66,18 @@ class CirklonInstrument(object):
         if cc_defs_required:
             instrument_data[CC_DEFS] = self._make_cc_defs(midi_cc_data)
 
-        # TODO: process ROW_DEFS
+        if ROW_DEFS in raw_instrument:
+            row_defs = {}
+            for row in raw_instrument[ROW_DEFS]:
+                note = row[0]
+                label = row[1]
+                if len(row) > 2:
+                    always_show = row[2]
+                else:
+                    always_show = True
+                row_defs[note] = {"label": label, "always_show": always_show}
 
+        instrument_data[ROW_DEFS] = row_defs
         return instrument_data
 
     def _make_track_data(self, raw_instrument):
