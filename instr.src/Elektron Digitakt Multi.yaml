@@ -9,12 +9,12 @@ Digitakt:
   - ["CC", 99, "TrkLvl"]
 
   # Trigger 
-  - [4, "CC", 3, "TrgNot",36, 60, 84] # Trigger Note, default C3 ±24
+  - [4, "CC", 3, "TrgNot",36, 84, 60] # Trigger Note, default C3 +/-24
   - ["CC", 4, "TrgVel", 127]
   - ["CC", 5, "TrgLen"]
   
   # Source
-  - [7, "CC", 16, "sTune±", 0, 127, 64] # (*) bipolar
+  - [7, "CC", 16, "sTune", 0, 127, 64] # (*) bipolar
   - ["CC", 17, "sMode", 0, 4] # (*) Play Mode (Rev, RevLoop, FwdLoop, Fwd)
   - ["CC", 19, "SmplNo"]
   - ["CC", 20, "sStart"]
@@ -24,7 +24,7 @@ Digitakt:
   # Filter 
   - [13, "CC", 74, "fCut"]
   - ["CC", 75, "fRes"]
-  - ["CC", 77, "f^Dep±", 0, 127, 64] # (*) bipolar
+  - ["CC", 77, "f^Dep", 0, 127, 64] # (*) bipolar
   - ["CC", 76, "fType", 0, 2] # (*) Filter Type (off, LP, HP)
   - [18, "CC", 18, "sBit"] # (*) Sample Bitrate
   
@@ -49,10 +49,10 @@ Digitakt:
   - ["CC", 80, "a^Dcy"]
 
   # LFO 
-  - [37, "CC", 102, "~Spd±", 0, 127, 64] # (*) bipolar
+  - [37, "CC", 102, "~Spd", 0, 127, 64] # (*) bipolar
   - ["CC", 103, "~Mult"] # LFO Multiply
-  - ["CC", 104, "~Fade±", 0, 127, 64] # (*) bipolar
-  - ["CC", 109, "~Dpth±", 0, 127, 64] # (*) bipolar
+  - ["CC", 104, "~Fade", 0, 127, 64] # (*) bipolar
+  - ["CC", 109, "~Dpth", 0, 127, 64] # (*) bipolar
   - ["CC", 106, "~Wave", 0, 6] # (*) 7
   - ["CC", 107, "~Phase"]
 
