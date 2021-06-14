@@ -1,4 +1,4 @@
-DigitaktK:
+Digitakt:
   midi_port: 4
   midi_chan: 10
   multi: true
