@@ -1,0 +1,314 @@
+{
+    "instrument_data": {
+        "DigitaktK": {
+            "midi_port": 4,
+            "midi_chan": 10,
+            "multi": true,
+            "poly_spread": "off",
+            "track_values": {
+                "slot_1": {
+                    "track_control": "pgm"
+                },
+                "slot_2": {
+                    "MIDI_CC": 99,
+                    "label": "TrkLvl"
+                },
+                "slot_4": {
+                    "MIDI_CC": 3,
+                    "label": "TrgNot"
+                },
+                "slot_5": {
+                    "MIDI_CC": 4,
+                    "label": "TrgVel"
+                },
+                "slot_6": {
+                    "MIDI_CC": 5,
+                    "label": "TrgLen"
+                },
+                "slot_7": {
+                    "MIDI_CC": 16,
+                    "label": "sTune\u00b1"
+                },
+                "slot_8": {
+                    "MIDI_CC": 17,
+                    "label": "sMode"
+                },
+                "slot_9": {
+                    "MIDI_CC": 19,
+                    "label": "SmplNo"
+                },
+                "slot_10": {
+                    "MIDI_CC": 20,
+                    "label": "sStart"
+                },
+                "slot_11": {
+                    "MIDI_CC": 21,
+                    "label": "sLen"
+                },
+                "slot_12": {
+                    "MIDI_CC": 22,
+                    "label": "sLoop"
+                },
+                "slot_13": {
+                    "MIDI_CC": 74,
+                    "label": "fCut"
+                },
+                "slot_14": {
+                    "MIDI_CC": 75,
+                    "label": "fRes"
+                },
+                "slot_15": {
+                    "MIDI_CC": 77,
+                    "label": "f^Dep\u00b1"
+                },
+                "slot_16": {
+                    "MIDI_CC": 76,
+                    "label": "fType"
+                },
+                "slot_18": {
+                    "MIDI_CC": 18,
+                    "label": "sBit"
+                },
+                "slot_19": {
+                    "MIDI_CC": 81,
+                    "label": "Drive"
+                },
+                "slot_20": {
+                    "MIDI_CC": 23,
+                    "label": "sLevel"
+                },
+                "slot_21": {
+                    "MIDI_CC": 7,
+                    "label": "Volume"
+                },
+                "slot_22": {
+                    "MIDI_CC": 10,
+                    "label": "Pan"
+                },
+                "slot_23": {
+                    "MIDI_CC": 82,
+                    "label": "SndDel"
+                },
+                "slot_24": {
+                    "MIDI_CC": 83,
+                    "label": "SndRev"
+                },
+                "slot_25": {
+                    "MIDI_CC": 70,
+                    "label": "f^Atk"
+                },
+                "slot_26": {
+                    "MIDI_CC": 71,
+                    "label": "f^Dcy"
+                },
+                "slot_27": {
+                    "MIDI_CC": 72,
+                    "label": "f^Sus"
+                },
+                "slot_28": {
+                    "MIDI_CC": 73,
+                    "label": "f^Rel"
+                },
+                "slot_30": {
+                    "MIDI_CC": 13,
+                    "label": "f^Trig"
+                },
+                "slot_31": {
+                    "MIDI_CC": 78,
+                    "label": "a^Atk"
+                },
+                "slot_32": {
+                    "MIDI_CC": 79,
+                    "label": "a^Hold"
+                },
+                "slot_33": {
+                    "MIDI_CC": 80,
+                    "label": "a^Dcy"
+                },
+                "slot_37": {
+                    "MIDI_CC": 102,
+                    "label": "~Spd\u00b1"
+                },
+                "slot_38": {
+                    "MIDI_CC": 103,
+                    "label": "~Mult"
+                },
+                "slot_39": {
+                    "MIDI_CC": 104,
+                    "label": "~Fade\u00b1"
+                },
+                "slot_40": {
+                    "MIDI_CC": 109,
+                    "label": "~Dpth\u00b1"
+                },
+                "slot_41": {
+                    "MIDI_CC": 106,
+                    "label": "~Wave"
+                },
+                "slot_42": {
+                    "MIDI_CC": 107,
+                    "label": "~Phase"
+                },
+                "slot_43": {
+                    "MIDI_CC": 108,
+                    "label": "~Mode"
+                },
+                "slot_44": {
+                    "MIDI_CC": 105,
+                    "label": "~Dest"
+                },
+                "slot_45": {
+                    "MIDI_CC": 14,
+                    "label": "~Trig"
+                }
+            },
+            "CC_defs": {
+                "CC_99": {
+                    "label": "TrkLvl"
+                },
+                "CC_3": {
+                    "label": "TrgNot",
+                    "min_val": 36,
+                    "max_val": 60,
+                    "start_val": 84
+                },
+                "CC_4": {
+                    "label": "TrgVel",
+                    "start_val": 127
+                },
+                "CC_5": {
+                    "label": "TrgLen"
+                },
+                "CC_16": {
+                    "label": "sTune\u00b1",
+                    "min_val": 0,
+                    "max_val": 127,
+                    "start_val": 64
+                },
+                "CC_17": {
+                    "label": "sMode",
+                    "min_val": 0,
+                    "max_val": 4
+                },
+                "CC_19": {
+                    "label": "SmplNo"
+                },
+                "CC_20": {
+                    "label": "sStart"
+                },
+                "CC_21": {
+                    "label": "sLen"
+                },
+                "CC_22": {
+                    "label": "sLoop"
+                },
+                "CC_74": {
+                    "label": "fCut"
+                },
+                "CC_75": {
+                    "label": "fRes"
+                },
+                "CC_77": {
+                    "label": "f^Dep\u00b1",
+                    "min_val": 0,
+                    "max_val": 127,
+                    "start_val": 64
+                },
+                "CC_76": {
+                    "label": "fType",
+                    "min_val": 0,
+                    "max_val": 2
+                },
+                "CC_18": {
+                    "label": "sBit"
+                },
+                "CC_81": {
+                    "label": "Drive"
+                },
+                "CC_23": {
+                    "label": "sLevel"
+                },
+                "CC_7": {
+                    "label": "Volume"
+                },
+                "CC_10": {
+                    "label": "Pan"
+                },
+                "CC_82": {
+                    "label": "SndDel"
+                },
+                "CC_83": {
+                    "label": "SndRev"
+                },
+                "CC_70": {
+                    "label": "f^Atk"
+                },
+                "CC_71": {
+                    "label": "f^Dcy"
+                },
+                "CC_72": {
+                    "label": "f^Sus"
+                },
+                "CC_73": {
+                    "label": "f^Rel"
+                },
+                "CC_13": {
+                    "label": "f^Trig",
+                    "min_val": 0,
+                    "max_val": 1
+                },
+                "CC_78": {
+                    "label": "a^Atk"
+                },
+                "CC_79": {
+                    "label": "a^Hold"
+                },
+                "CC_80": {
+                    "label": "a^Dcy"
+                },
+                "CC_102": {
+                    "label": "~Spd\u00b1",
+                    "min_val": 0,
+                    "max_val": 127,
+                    "start_val": 64
+                },
+                "CC_103": {
+                    "label": "~Mult"
+                },
+                "CC_104": {
+                    "label": "~Fade\u00b1",
+                    "min_val": 0,
+                    "max_val": 127,
+                    "start_val": 64
+                },
+                "CC_109": {
+                    "label": "~Dpth\u00b1",
+                    "min_val": 0,
+                    "max_val": 127,
+                    "start_val": 64
+                },
+                "CC_106": {
+                    "label": "~Wave",
+                    "min_val": 0,
+                    "max_val": 6
+                },
+                "CC_107": {
+                    "label": "~Phase"
+                },
+                "CC_108": {
+                    "label": "~Mode",
+                    "min_val": 0,
+                    "max_val": 4
+                },
+                "CC_105": {
+                    "label": "~Dest"
+                },
+                "CC_14": {
+                    "label": "~Trig",
+                    "min_val": 1,
+                    "max_val": 1
+                }
+            }
+        }
+    }
+}
