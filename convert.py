@@ -118,12 +118,13 @@ class CirklonInstrument(object):
             cc_data = {
                 'label': item[1]
             }
-            if len(item) > 2:
+            if len(item) == 3:
+                cc_data['start_val'] = item[2]
+            elif len(item) > 3:
                 cc_data['min_val'] = item[2]
-            if len(item) > 3:
                 cc_data['max_val'] = item[3]
-            if len(item) > 4:
-                cc_data['start_val'] = item[4]
+                if len(item) > 4:
+                    cc_data['start_val'] = item[4]
 
             cc_defs["CC_%s" % item[0]] = cc_data
         return cc_defs
