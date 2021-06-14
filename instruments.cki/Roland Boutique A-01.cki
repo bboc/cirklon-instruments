@@ -1,0 +1,49 @@
+{
+    "instrument_data": {
+        "A-01": {
+            "midi_port": 1,
+            "midi_chan": 8,
+            "multi": false,
+            "default_note": "C 3",
+            "default_patt": "P3",
+            "track_values": {
+                "slot_1": {
+                    "MIDI_CC": 1,
+                    "label": "Mod"
+                },
+                "slot_2": {
+                    "MIDI_CC": 74,
+                    "label": "fCut"
+                },
+                "slot_3": {
+                    "MIDI_CC": 71,
+                    "label": "fREs"
+                },
+                "slot_4": {
+                    "MIDI_CC": 73,
+                    "label": "^Atk"
+                },
+                "slot_5": {
+                    "MIDI_CC": 75,
+                    "label": "^Dcy"
+                },
+                "slot_6": {
+                    "MIDI_CC": 72,
+                    "label": "^Rel"
+                },
+                "slot_7": {
+                    "MIDI_CC": 5,
+                    "label": "PortaT"
+                },
+                "slot_8": {
+                    "MIDI_CC": 76,
+                    "label": "VibRt"
+                },
+                "slot_9": {
+                    "MIDI_CC": 77,
+                    "label": "VibDp"
+                }
+            }
+        }
+    }
+}

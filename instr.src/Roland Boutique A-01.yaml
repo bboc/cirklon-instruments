@@ -1,0 +1,19 @@
+A-01:
+  midi_port: 1
+  midi_chan: 8
+  multi: false
+  default_note: "C 3"
+  default_patt: "P3"
+
+  track_values:
+    - ["CC", 1, "Mod"]
+
+    - ["CC", 74, "fCut"]
+    - ["CC", 71, "fREs"]
+    - ["CC", 73, "^Atk"]
+    - ["CC", 75, "^Dcy"]
+    - ["CC", 72, "^Rel"]
+
+    - ["CC", 5, "PortaT"]
+    - ["CC", 76, "VibRt"]
+    - ["CC", 77, "VibDp"]

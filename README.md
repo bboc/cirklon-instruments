@@ -18,6 +18,7 @@ To facilitate transformation of existing scripts, a converter from JSON to YAML 
 * MFB Dominion Club.cki (beta)
 * Novation Bass Station Rack.cki (alpha)
 * Roland Sh-01a.cki (beta)
+* Roland Boutique A-01.cki (alpha)
 * Sherman Filterbank 2.cki (alpha)
 * Waldorf Micro Q.cki (alpha)
 * Waldorf Streichfett.cki (beta)
