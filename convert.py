@@ -34,8 +34,10 @@ def write_json(target, data):
 
 class CirklonInstrument(object):
 
-    def __init__(self, name):
+    def __init__(self, name, port, channel):
         self.name = name
+        self.port = port
+        self.channel = channel
         self.raw_data = {}
         self.cki_data = {INSTRUMENT_DATA: {}}
 
@@ -57,6 +59,11 @@ class CirklonInstrument(object):
         for item in raw_instrument:
             if item not in [TRACK_VALUES, ROW_DEFS]:
                 instrument_data[item] = raw_instrument[item]
+
+        if self.port:
+            instrument_data['midi_port'] = self.port
+        if self.channel:
+            instrument_data['midi_chan'] = self.channel
 
         track_values, midi_cc_data, cc_defs_required = self._make_track_data(raw_instrument)
 
@@ -147,8 +154,13 @@ if __name__ == "__main__":
 
     parser = argparse.ArgumentParser(description='Create a Cirklon instrument definition file from a YAML file.')
     parser.add_argument('name', type=str,
-                        help="Name of YAML file in instr.src (without extension")
+                        help="Name of YAML file in instr.src (without extension)")
+
+    parser.add_argument('port', type=int, nargs='?', default=None,
+                        help="Circlon port for the instrument (optional)")
+    parser.add_argument('channel', type=int, nargs='?', default=None,
+                        help="MIDI channel for the instrument (optional)")
 
     args = parser.parse_args()
-    ci = CirklonInstrument(args.name)
+    ci = CirklonInstrument(args.name, args.port, args.channel)
     ci.make()
