@@ -1,8 +1,8 @@
 {
     "instrument_data": {
         "Digitakt": {
-            "midi_port": 4,
-            "midi_chan": 10,
+            "midi_port": 1,
+            "midi_chan": 1,
             "multi": true,
             "poly_spread": "off",
             "track_values": {
@@ -174,6 +174,8 @@
                 },
                 "CC_4": {
                     "label": "TrgVel",
+                    "min_val": 0,
+                    "max_val": 127,
                     "start_val": 127
                 },
                 "CC_5": {
@@ -232,7 +234,10 @@
                     "label": "Volume"
                 },
                 "CC_10": {
-                    "label": "Pan"
+                    "label": "Pan",
+                    "min_val": 0,
+                    "max_val": 127,
+                    "start_val": 64
                 },
                 "CC_82": {
                     "label": "SndDel"

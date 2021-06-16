@@ -1,6 +1,6 @@
 A-01:
   midi_port: 1
-  midi_chan: 8
+  midi_chan: 1
   multi: false
   default_note: "C 3"
   default_patt: "P3"

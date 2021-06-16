@@ -3,8 +3,8 @@ Filterbk2:
   # switch channel: send any program change on ch16, 
   # channel of next midi message received will be the new channel
   # so don't bother if you only own one Filterbank: the channel is 16
-  midi_port: 2
-  midi_chan: 16
+  midi_port: 1
+  midi_chan: 1
   multi: false
   default_note: "G#4"
   default_patt: "P3"

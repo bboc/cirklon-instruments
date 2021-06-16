@@ -1,8 +1,8 @@
 {
     "instrument_data": {
         "Filterbk2": {
-            "midi_port": 2,
-            "midi_chan": 16,
+            "midi_port": 1,
+            "midi_chan": 1,
             "multi": false,
             "default_note": "G#4",
             "default_patt": "P3",

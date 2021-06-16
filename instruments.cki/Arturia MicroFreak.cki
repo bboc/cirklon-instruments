@@ -2,7 +2,7 @@
     "instrument_data": {
         "MicroFreak": {
             "midi_port": 1,
-            "midi_chan": 15,
+            "midi_chan": 1,
             "multi": false,
             "default_note": "C 3",
             "default_patt": "P3",

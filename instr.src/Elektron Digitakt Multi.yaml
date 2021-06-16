@@ -1,6 +1,6 @@
 Digitakt:
-  midi_port: 4
-  midi_chan: 10
+  midi_port: 1
+  midi_chan: 1
   multi: true
   poly_spread: 'off'
   track_values:
@@ -10,7 +10,7 @@ Digitakt:
 
   # Trigger 
   - [4, "CC", 3, "TrgNot",36, 84, 60] # Trigger Note, default C3 +/-24
-  - ["CC", 4, "TrgVel", 127]
+  - ["CC", 4, "TrgVel", 0, 127, 127]
   - ["CC", 5, "TrgLen"]
   
   # Source
@@ -31,7 +31,7 @@ Digitakt:
   - [19, "CC", 81, "Drive"]
   - ["CC", 23, "sLevel"]
   - ["CC", 7, "Volume"]
-  - ["CC", 10, "Pan"]
+  - ["CC", 10, "Pan", 0, 127, 64] # (*) bipolar
   - ["CC", 82, "SndDel"]
   - ["CC", 83, "SndRev"]
 

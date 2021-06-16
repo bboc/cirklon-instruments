@@ -1,8 +1,8 @@
 {
     "instrument_data": {
         "DigitaktK": {
-            "midi_port": 4,
-            "midi_chan": 10,
+            "midi_port": 1,
+            "midi_chan": 1,
             "multi": false,
             "poly_spread": "off",
             "track_values": {
@@ -107,6 +107,86 @@
                 },
                 "slot_41": {
                     "MIDI_CC": 118,
+                    "label": "DryWet"
+                }
+            },
+            "CC_defs": {
+                "CC_85": {
+                    "label": "D.Time"
+                },
+                "CC_88": {
+                    "label": "D.Feed"
+                },
+                "CC_86": {
+                    "label": "D.Ping"
+                },
+                "CC_92": {
+                    "label": "D.Vol"
+                },
+                "CC_89": {
+                    "label": "D.HP"
+                },
+                "CC_90": {
+                    "label": "D.LP",
+                    "min_val": 0,
+                    "max_val": 127,
+                    "start_val": 127
+                },
+                "CC_87": {
+                    "label": "D.Widt"
+                },
+                "CC_91": {
+                    "label": "D->Rev"
+                },
+                "CC_24": {
+                    "label": "R.Pre"
+                },
+                "CC_25": {
+                    "label": "R.Dcy"
+                },
+                "CC_26": {
+                    "label": "R.ShFr"
+                },
+                "CC_27": {
+                    "label": "R.ShGn"
+                },
+                "CC_31": {
+                    "label": "R.CmpP"
+                },
+                "CC_28": {
+                    "label": "R.HP"
+                },
+                "CC_29": {
+                    "label": "R.LP",
+                    "min_val": 0,
+                    "max_val": 127,
+                    "start_val": 127
+                },
+                "CC_111": {
+                    "label": "Thrs"
+                },
+                "CC_112": {
+                    "label": "Atk"
+                },
+                "CC_113": {
+                    "label": "Rel"
+                },
+                "CC_115": {
+                    "label": "Ratio"
+                },
+                "CC_114": {
+                    "label": "GainMU"
+                },
+                "CC_116": {
+                    "label": "SC.Src"
+                },
+                "CC_117": {
+                    "label": "SC.Fil"
+                },
+                "CC_119": {
+                    "label": "PVol"
+                },
+                "CC_118": {
                     "label": "DryWet"
                 }
             },
